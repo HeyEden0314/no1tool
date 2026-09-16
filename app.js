@@ -3,17 +3,17 @@ const categoryGrid = document.getElementById('categoryGrid');
 const featuredGrid = document.getElementById('featuredGrid');
 
 const categories = [
-  { name: '全部', icon: '🔍', desc: '已收录工具' },
-  { name: 'AI写作', icon: '✍️', desc: '文章、文案' },
-  { name: 'AI图像', icon: '🎨', desc: '绘画、修图' },
-  { name: 'AI视频', icon: '🎬', desc: '生成、剪辑' },
-  { name: 'AI办公', icon: '💼', desc: 'PPT、文档' },
-  { name: 'AI聊天', icon: '💬', desc: '对话、助手' },
-  { name: 'AI开发', icon: '💻', desc: '编程、代码' },
-  { name: 'AI音频', icon: '🎵', desc: '音乐、配音' },
-  { name: 'AI内容', icon: '📝', desc: '检测、编辑' },
-  { name: 'AI学习', icon: '📚', desc: '课程、教程' },
-  { name: 'AI搜索', icon: '🔎', desc: '检索、问答' }
+  { name: '全部', icon: '00', desc: '已收录工具' },
+  { name: 'AI写作', icon: '01', desc: '文章、文案' },
+  { name: 'AI图像', icon: '02', desc: '绘画、修图' },
+  { name: 'AI视频', icon: '03', desc: '生成、剪辑' },
+  { name: 'AI办公', icon: '04', desc: 'PPT、文档' },
+  { name: 'AI聊天', icon: '05', desc: '对话、助手' },
+  { name: 'AI开发', icon: '06', desc: '编程、代码' },
+  { name: 'AI音频', icon: '07', desc: '音乐、配音' },
+  { name: 'AI内容', icon: '08', desc: '检测、编辑' },
+  { name: 'AI学习', icon: '09', desc: '课程、教程' },
+  { name: 'AI搜索', icon: '10', desc: '检索、问答' }
 ];
 
 const FEATURED_TITLES = [
@@ -35,51 +35,52 @@ function toolHref(tool) {
   return `tools/${encodeURIComponent(tool.slug)}.html`;
 }
 
+function attachCover(container, tool, placeholder) {
+  const img = document.createElement('img');
+  img.loading = 'lazy';
+  img.decoding = 'async';
+  img.src = tool.img || placeholder;
+  img.alt = tool.title;
+  img.onerror = () => {
+    img.onerror = null;
+    img.src = placeholder;
+  };
+  container.appendChild(img);
+}
+
 function renderToolCard(tool, index) {
   const card = document.createElement('article');
   card.className = 'card';
-  card.style.animationDelay = `${index * 0.03}s`;
+  card.dataset.cat = tool.category || '';
 
   const main = document.createElement('a');
   main.className = 'card-main';
   main.href = toolHref(tool);
 
-  const top = document.createElement('div');
-  top.className = 'card-top';
+  const cover = document.createElement('div');
+  cover.className = 'card-cover';
+  attachCover(cover, tool, 'images/placeholder.svg');
+  main.appendChild(cover);
 
-  const avatar = document.createElement('div');
-  avatar.className = 'card-avatar';
-  const img = document.createElement('img');
-  img.loading = 'lazy';
-  img.decoding = 'async';
-  img.src = tool.img || 'images/placeholder.svg';
-  img.alt = tool.title;
-  img.onerror = () => {
-    img.onerror = null;
-    img.src = 'images/placeholder.svg';
-  };
-  avatar.appendChild(img);
+  const body = document.createElement('div');
+  body.className = 'card-body';
 
-  const copy = document.createElement('div');
+  if (tool.category) {
+    const badge = document.createElement('span');
+    badge.className = 'card-category';
+    badge.textContent = tool.category;
+    body.appendChild(badge);
+  }
+
   const titleText = document.createElement('h3');
   titleText.className = 'card-title';
   titleText.textContent = tool.title;
   const subtitle = document.createElement('p');
   subtitle.className = 'card-subtitle';
   subtitle.textContent = tool.subtitle;
-  copy.appendChild(titleText);
-  copy.appendChild(subtitle);
-
-  top.appendChild(avatar);
-  top.appendChild(copy);
-  main.appendChild(top);
-
-  if (tool.category) {
-    const badge = document.createElement('span');
-    badge.className = 'card-category';
-    badge.textContent = tool.category;
-    main.appendChild(badge);
-  }
+  body.appendChild(titleText);
+  body.appendChild(subtitle);
+  main.appendChild(body);
 
   const actions = document.createElement('div');
   actions.className = 'card-actions';
@@ -145,25 +146,22 @@ function renderCategoryGrid(tools) {
     counts[tool.category] = (counts[tool.category] || 0) + 1;
   });
 
-  categories.forEach((cat, index) => {
+  categories.forEach((cat) => {
     const link = document.createElement('a');
     link.href =
       cat.name === '全部'
         ? 'list.html'
         : `list.html?category=${encodeURIComponent(cat.name)}`;
     link.className = 'category-card';
-    link.style.animationDelay = `${index * 0.04}s`;
+    link.dataset.cat = cat.name;
     const count = cat.name === '全部' ? tools.length : counts[cat.name] || 0;
     link.innerHTML = `
-      <div class="category-icon">${cat.icon}</div>
+      <span class="category-index">${cat.icon}</span>
       <div class="category-info">
         <h3 class="category-name">${cat.name}</h3>
         <p class="category-desc">${cat.desc}</p>
       </div>
-      <div class="category-meta">
-        <span class="category-count">${count}</span>
-        <span class="category-arrow">→</span>
-      </div>
+      <span class="category-count">${count}</span>
     `;
     categoryGrid.appendChild(link);
   });

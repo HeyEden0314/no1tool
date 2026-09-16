@@ -206,20 +206,17 @@ function renderCards() {
     return;
   }
 
-  pageTools.forEach((tool, index) => {
+  pageTools.forEach((tool) => {
     const card = document.createElement('article');
     card.className = 'card';
-    card.style.animationDelay = `${index * 0.03}s`;
+    card.dataset.cat = tool.category || '';
 
     const main = document.createElement('a');
     main.className = 'card-main';
     main.href = toolHref(tool);
 
-    const top = document.createElement('div');
-    top.className = 'card-top';
-
-    const avatar = document.createElement('div');
-    avatar.className = 'card-avatar';
+    const cover = document.createElement('div');
+    cover.className = 'card-cover';
     const img = document.createElement('img');
     img.loading = 'lazy';
     img.decoding = 'async';
@@ -229,28 +226,28 @@ function renderCards() {
       img.onerror = null;
       img.src = 'images/placeholder.svg';
     };
-    avatar.appendChild(img);
+    cover.appendChild(img);
+    main.appendChild(cover);
 
-    const title = document.createElement('div');
+    const body = document.createElement('div');
+    body.className = 'card-body';
+
+    if (tool.category) {
+      const badge = document.createElement('span');
+      badge.className = 'card-category';
+      badge.textContent = tool.category;
+      body.appendChild(badge);
+    }
+
     const titleText = document.createElement('h3');
     titleText.className = 'card-title';
     titleText.textContent = tool.title;
     const subtitle = document.createElement('p');
     subtitle.className = 'card-subtitle';
     subtitle.textContent = tool.subtitle;
-    title.appendChild(titleText);
-    title.appendChild(subtitle);
-
-    top.appendChild(avatar);
-    top.appendChild(title);
-    main.appendChild(top);
-
-    if (tool.category) {
-      const badge = document.createElement('span');
-      badge.className = 'card-category';
-      badge.textContent = tool.category;
-      main.appendChild(badge);
-    }
+    body.appendChild(titleText);
+    body.appendChild(subtitle);
+    main.appendChild(body);
 
     const actions = document.createElement('div');
     actions.className = 'card-actions';
