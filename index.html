@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#007AFF" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <title>AI工具网站应用大全 - No.1工具导航</title>
+    <meta
+      name="description"
+      content="探索AI，就来No.1工具导航，收录全球AI工具网站应用，涵盖AIGC写作、AI绘画设计、AI视频音频、AI编程开发、AI对话聊天等领域。"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23007AFF'/%3E%3Ctext x='50' y='65' font-family='system-ui,-apple-system,sans-serif' font-size='40' font-weight='700' fill='white' text-anchor='middle'%3EAI%3C/text%3E%3C/svg%3E" />
+    <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23007AFF'/%3E%3Ctext x='50' y='65' font-family='system-ui,-apple-system,sans-serif' font-size='40' font-weight='700' fill='white' text-anchor='middle'%3EAI%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <!-- 顶部导航 -->
+      <header class="topbar">
+        <div class="brand">
+          <div class="brand-icon">AI</div>
+          <div>
+            <h1>AI工具网站应用大全</h1>
+            <p>收录热门 AI 工具与应用，支持搜索、筛选、快速跳转。</p>
+          </div>
+        </div>
+        <nav class="topnav">
+          <a href="index.html" class="nav-link active">首页</a>
+          <a href="list.html" class="nav-link">全部工具</a>
+        </nav>
+      </header>
+
+      <!-- Hero区域 -->
+      <section class="hero-panel">
+        <div class="hero-copy">
+          <span class="eyebrow">本地化静态展示 · 稳定访问</span>
+          <h2>400+ AI 工具已完成本地封面下载，支持快速搜索与分类浏览。</h2>
+          <p>所有工具封面图片都已保存到本地 <code>images/</code> 目录，避免远程图片加载失败。</p>
+          <div class="hero-actions">
+            <a href="list.html" class="btn btn-primary">浏览全部工具 →</a>
+            <a href="#categories" class="btn btn-secondary">查看分类</a>
+          </div>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <strong>400+</strong>
+            <span>工具列表</span>
+          </div>
+          <div class="stat-item">
+            <strong>100%</strong>
+            <span>本地图片</span>
+          </div>
+          <div class="stat-item">
+            <strong>11</strong>
+            <span>分类标签</span>
+          </div>
+          <div class="stat-item">
+            <strong>静态</strong>
+            <span>无需服务器</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 分类入口 -->
+      <section class="section" id="categories">
+        <div class="section-header">
+          <h2 class="section-title">分类浏览</h2>
+          <p class="section-desc">按类别快速查找你需要的AI工具</p>
+        </div>
+        <div class="category-grid" id="categoryGrid">
+          <!-- 由JS动态生成 -->
+        </div>
+      </section>
+
+      <!-- 用户评价 -->
+      <section class="section">
+        <div class="section-header">
+          <h2 class="section-title">用户评价</h2>
+          <p class="section-desc">看看其他用户怎么说</p>
+        </div>
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p>"非常实用的AI工具导航站！分类清晰，找工具很方便，再也不用到处搜了。"</p>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-avatar">张</div>
+              <div class="author-info">
+                <strong>张先生</strong>
+                <span>产品经理</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p>"图片都是本地加载，速度很快。分类也很全面，基本涵盖了所有主流AI工具。"</p>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-avatar">李</div>
+              <div class="author-info">
+                <strong>李女士</strong>
+                <span>设计师</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p>"界面简洁好看，搜索功能很强大。是我用过最好的AI工具导航网站！"</p>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-avatar">王</div>
+              <div class="author-info">
+                <strong>王先生</strong>
+                <span>开发者</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 页脚 -->
+      <footer class="page-footer">
+        <div class="footer-content">
+          <div class="footer-links">
+            <a href="index.html">首页</a>
+            <a href="list.html">全部工具</a>
+          </div>
+          <p class="footer-copy">© 2024 AI工具网站应用大全 · 本地化图片已保存在 <code>images/</code> 文件夹</p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
