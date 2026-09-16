@@ -6,16 +6,22 @@
 
 ## 如何改数据
 
-工具列表全部在根目录的 `data.json`。每条目前有四个字段：
+工具列表全部在根目录的 `data.json`。每条字段：
 
 ```json
 {
   "title": "工具名称",
   "subtitle": "一句话简介",
   "href": "https://example.com",
-  "img": "images/001-example.png"
+  "img": "images/001-example.png",
+  "category": "AI开发",
+  "status": "published"
 }
 ```
+
+`category` 必须是首页芯片之一：AI写作、AI图像、AI视频、AI办公、AI聊天、AI开发、AI音频、AI内容、AI学习、AI搜索。列表页按该字段筛选，不要指望标题里出现「AI开发」。
+
+`status` 为 `unpublished` 的条目不会出现在站点上（外链未核实等）。投稿请用 GitHub Issue 模板「提交工具」。
 
 1. 直接编辑 `data.json`（保持 UTF-8、合法 JSON）。
 2. 封面放到 `images/`，`img` 写成相对路径，例如 `images/401-new-tool.png`。缺图时列表页会回退到 `images/placeholder.svg`。

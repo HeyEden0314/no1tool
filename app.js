@@ -26,7 +26,7 @@ function fetchToolCount() {
   fetch('data.json')
     .then(response => response.json())
     .then(data => {
-      stats.totalTools = data.length;
+      stats.totalTools = data.filter((item) => item.status !== 'unpublished').length;
       updateStats();
     })
     .catch(() => {

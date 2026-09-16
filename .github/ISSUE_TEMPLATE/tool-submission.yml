@@ -1,0 +1,44 @@
+name: 提交工具
+description: 推荐一个尚未收录的 AI 工具（例如 InnerCanvas）
+title: "[投稿] "
+labels: ["tool-submission"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: 工具名称
+      placeholder: InnerCanvas
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: 官网链接
+      description: 必须是 https 官网，不要填分类目录页。
+      placeholder: https://
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 分类
+      options:
+        - AI写作
+        - AI图像
+        - AI视频
+        - AI办公
+        - AI聊天
+        - AI开发
+        - AI音频
+        - AI内容
+        - AI学习
+        - AI搜索
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: 一句话简介
+      description: 用中文说明这个工具做什么，不要贴广告长文。
+    validations:
+      required: true

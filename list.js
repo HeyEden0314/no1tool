@@ -78,9 +78,7 @@ function filterTools() {
       normalizeText(tool.subtitle).includes(search);
 
     const matchesCategory =
-      activeCategory === '全部' ||
-      normalizeText(tool.title).includes(normalizeText(activeCategory)) ||
-      normalizeText(tool.subtitle).includes(normalizeText(activeCategory));
+      activeCategory === '全部' || tool.category === activeCategory;
 
     return matchesSearch && matchesCategory;
   });
@@ -258,20 +256,21 @@ function filterAndRender() {
 }
 
 function initialize() {
-  const siteBase = 'https://ai.codefather.cn';
-
   // 从URL获取分类
   activeCategory = getCategoryFromURL();
 
   fetch('data.json')
     .then((response) => response.json())
     .then((data) => {
-      tools = data.map((item) => ({
-        title: item.title,
-        subtitle: item.subtitle,
-        href: item.href.startsWith('http') ? item.href : `${siteBase}${item.href}`,
-        img: item.img || 'images/placeholder.svg',
-      }));
+      tools = data
+        .filter((item) => item.status !== 'unpublished')
+        .map((item) => ({
+          title: item.title,
+          subtitle: item.subtitle,
+          href: item.href,
+          img: item.img || 'images/placeholder.svg',
+          category: item.category || '',
+        }));
       renderCategories();
       filterAndRender();
     })
