@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#007AFF" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <title>No.1工具导航 - 中文 AI 工具目录</title>
+    <meta
+      name="description"
+      content="No.1工具导航帮你按分类找到合适的 AI 工具：写作、图像、视频、办公、聊天、开发等，先看介绍再去官网。"
+    />
+    <link rel="canonical" href="https://www.no1tool.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="zh_CN" />
+    <meta property="og:site_name" content="No.1工具导航" />
+    <meta property="og:title" content="No.1工具导航 - 中文 AI 工具目录" />
+    <meta property="og:description" content="按分类找到合适的 AI 工具，先看介绍再去官网。" />
+    <meta property="og:url" content="https://www.no1tool.com/" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="No.1工具导航 - 中文 AI 工具目录" />
+    <meta name="twitter:description" content="按分类找到合适的 AI 工具，先看介绍再去官网。" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23007AFF'/%3E%3Ctext x='50' y='65' font-family='system-ui,-apple-system,sans-serif' font-size='40' font-weight='700' fill='white' text-anchor='middle'%3EAI%3C/text%3E%3C/svg%3E" />
+    <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23007AFF'/%3E%3Ctext x='50' y='65' font-family='system-ui,-apple-system,sans-serif' font-size='40' font-weight='700' fill='white' text-anchor='middle'%3EAI%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand">
+          <div class="brand-icon">AI</div>
+          <div>
+            <h1>No.1工具导航</h1>
+            <p>中文 AI 工具目录</p>
+          </div>
+        </div>
+        <nav class="topnav">
+          <a href="index.html" class="nav-link active">首页</a>
+          <a href="list.html" class="nav-link">全部工具</a>
+          <a href="https://github.com/HeyEden0314/no1tool/issues/new?template=tool-submission.yml" class="nav-link" target="_blank" rel="noopener noreferrer">提交工具</a>
+        </nav>
+      </header>
+
+      <section class="hero-panel hero-home">
+        <div class="hero-copy">
+          <span class="eyebrow">中文 AI 工具导航</span>
+          <h2>按分类找到合适的 AI 工具。</h2>
+          <p>写作、图像、视频、办公、聊天、开发等分类都能点开。每条收录都有简介和详情页，先看工具，再决定要不要去官网。</p>
+          <form class="hero-search" action="list.html" method="get" role="search">
+            <span class="search-icon" aria-hidden="true">🔎</span>
+            <input type="search" name="q" placeholder="搜索工具，例如 ChatGPT、Copilot" autocomplete="off" />
+            <button class="btn btn-primary" type="submit">搜索</button>
+          </form>
+          <div class="hero-actions">
+            <a href="list.html" class="btn btn-primary">浏览全部工具</a>
+            <a href="#categories" class="btn btn-secondary">按分类看</a>
+          </div>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <strong id="statToolCount">390</strong>
+            <span>已收录</span>
+          </div>
+          <div class="stat-item">
+            <strong>10</strong>
+            <span>分类</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="featured">
+        <div class="section-header section-header-row">
+          <div>
+            <h2 class="section-title">先从这些看起</h2>
+            <p class="section-desc">各分类里较常见的工具，点进去看简介，再去官网。</p>
+          </div>
+          <a class="text-link" href="list.html">全部工具 →</a>
+        </div>
+        <div class="card-grid" id="featuredGrid"></div>
+      </section>
+
+      <section class="section" id="categories">
+        <div class="section-header">
+          <h2 class="section-title">按分类浏览</h2>
+          <p class="section-desc">分类来自每条工具的字段，点进去就是该分类下的列表。</p>
+        </div>
+        <div class="category-grid" id="categoryGrid"></div>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <h2 class="section-title">怎么用</h2>
+          <p class="section-desc">三步：选分类、看详情、去官网。</p>
+        </div>
+        <div class="steps-grid">
+          <div class="step-card">
+            <span class="step-num">1</span>
+            <h3>选一个分类</h3>
+            <p>写作、图像、开发等入口都会打开对应列表，不会出现空分类。</p>
+          </div>
+          <div class="step-card">
+            <span class="step-num">2</span>
+            <h3>打开工具详情</h3>
+            <p>看封面、简介和同类推荐，确认这是不是你要的工具。</p>
+          </div>
+          <div class="step-card">
+            <span class="step-num">3</span>
+            <h3>再访问官网</h3>
+            <p>详情页和卡片上都有官网按钮。不确定就先留在本站。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-band">
+        <div>
+          <h2>缺了你常用的工具？</h2>
+          <p>用 GitHub Issue 提交名称、官网和分类，我们按同一套字段审核后收录。</p>
+        </div>
+        <a class="btn btn-primary" href="https://github.com/HeyEden0314/no1tool/issues/new?template=tool-submission.yml" target="_blank" rel="noopener noreferrer">提交工具</a>
+      </section>
+
+      <footer class="page-footer">
+        <div class="footer-content">
+          <div class="footer-links">
+            <a href="index.html">首页</a>
+            <a href="list.html">全部工具</a>
+            <a href="https://github.com/HeyEden0314/no1tool/issues/new?template=tool-submission.yml" target="_blank" rel="noopener noreferrer">提交工具</a>
+          </div>
+          <p class="footer-copy">© 2026 No.1工具导航</p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
