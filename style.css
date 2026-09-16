@@ -318,8 +318,25 @@ a {
 }
 
 .search-icon {
-  color: var(--ink-3);
+  width: 0.85rem;
+  height: 0.85rem;
+  border: 1.6px solid var(--ink-3);
+  border-radius: 50%;
+  position: relative;
   flex-shrink: 0;
+  font-size: 0;
+  color: transparent;
+}
+
+.search-icon::after {
+  content: "";
+  position: absolute;
+  width: 0.38rem;
+  height: 1.5px;
+  background: var(--ink-3);
+  right: -0.22rem;
+  bottom: -0.02rem;
+  transform: rotate(45deg);
 }
 
 .hero-actions {
@@ -641,24 +658,6 @@ a {
 
 .page-home .card-grid {
   grid-template-columns: repeat(4, 1fr);
-}
-
-.page-home .card-grid .card:first-child {
-  grid-column: span 2;
-}
-
-.page-home .card-grid .card:first-child .card-cover,
-.page-home .card-grid .card:first-child .card-avatar {
-  aspect-ratio: 16 / 9;
-}
-
-.page-home .card-grid .card:first-child .card-title {
-  font-size: 1.45rem;
-}
-
-.page-home .card-grid .card:first-child .card-subtitle {
-  -webkit-line-clamp: 3;
-  font-size: 0.9rem;
 }
 
 /* ---------- 列表页 ---------- */
@@ -1110,10 +1109,6 @@ a {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .page-home .card-grid .card:first-child {
-    grid-column: span 3;
-    grid-row: auto;
-  }
 }
 
 @media (max-width: 900px) {
@@ -1182,9 +1177,6 @@ a {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .page-home .card-grid .card:first-child {
-    grid-column: span 2;
-  }
 }
 
 @media (max-width: 640px) {
@@ -1222,13 +1214,6 @@ a {
     grid-template-columns: 1fr;
   }
 
-  .page-home .card-grid .card:first-child {
-    grid-column: auto;
-  }
-
-  .page-home .card-grid .card:first-child .card-title {
-    font-size: 1.15rem;
-  }
 
   .category-bar {
     flex-wrap: nowrap;
