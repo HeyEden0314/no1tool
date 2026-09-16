@@ -7,7 +7,7 @@ import html
 import json
 import re
 from pathlib import Path
-from urllib.parse import quote
+from urllib.parse import quote, urlparse
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_PATH = ROOT / "data.json"
@@ -73,6 +73,24 @@ def nav_html(active: str) -> str:
         </nav>"""
 
 
+FAVICON = (
+    "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E"
+    "%3Crect width='100' height='100' rx='8' fill='%233D9AD6'/%3E"
+    "%3Ctext x='50' y='68' font-family='serif' font-size='52' font-weight='700' "
+    "fill='%23F4FAFE' text-anchor='middle'%3E%E5%A3%B9%3C/text%3E%3C/svg%3E"
+)
+
+
+def host_of(href: str) -> str:
+    if not href:
+        return ""
+    try:
+        host = urlparse(href).netloc
+        return host[4:] if host.startswith("www.") else host
+    except ValueError:
+        return ""
+
+
 def page_shell_head(title: str, description: str, canonical: str) -> str:
     esc_title = html.escape(title)
     esc_desc = html.escape(description)
@@ -81,7 +99,7 @@ def page_shell_head(title: str, description: str, canonical: str) -> str:
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <meta name="theme-color" content="#007AFF" />
+    <meta name="theme-color" content="#3d9ad6" />
     <title>{esc_title}</title>
     <meta name="description" content="{esc_desc}" />
     <link rel="canonical" href="{html.escape(canonical, quote=True)}" />
@@ -92,7 +110,10 @@ def page_shell_head(title: str, description: str, canonical: str) -> str:
     <meta property="og:description" content="{esc_desc}" />
     <meta property="og:url" content="{html.escape(canonical, quote=True)}" />
     <meta name="twitter:card" content="summary" />
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23007AFF'/%3E%3Ctext x='50' y='65' font-family='system-ui,-apple-system,sans-serif' font-size='40' font-weight='700' fill='white' text-anchor='middle'%3EAI%3C/text%3E%3C/svg%3E" />
+    <link rel="icon" type="image/svg+xml" href="{FAVICON}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="../style.css" />
   </head>"""
 
@@ -140,19 +161,25 @@ def tool_page(tool: dict, related: list[dict]) -> str:
             f'target="_blank" rel="noopener noreferrer">打开官网</a>'
         )
 
+    host = host_of(href)
+    host_row = ""
+    if host:
+        host_row = f"""            <div>
+              <dt>官网</dt>
+              <dd>{html.escape(host)}</dd>
+            </div>"""
+
     return f"""{page_shell_head(f"{title} - No.1工具导航", desc, canonical)}
-  <body>
+  <body class="page-detail">
     <div class="page-shell">
-      <header class="topbar">
-        <div class="brand">
-          <a href="../index.html" class="brand-link">
-            <div class="brand-icon">AI</div>
-            <div>
-              <h1>No.1工具导航</h1>
-              <p>中文 AI 工具目录</p>
-            </div>
-          </a>
-        </div>
+      <header class="masthead">
+        <a href="../index.html" class="wordmark">
+          <span class="wordmark-mark" aria-hidden="true">壹</span>
+          <span class="wordmark-copy">
+            <h1>No.1工具导航</h1>
+            <p>中文 AI 工具目录</p>
+          </span>
+        </a>
 {nav_html("list")}
       </header>
 
@@ -172,6 +199,13 @@ def tool_page(tool: dict, related: list[dict]) -> str:
           <a class="detail-cat" href="../list.html?category={html.escape(cat_q, quote=True)}">{html.escape(category)}</a>
           <h1>{html.escape(title)}</h1>
           <p>{html.escape(subtitle)}</p>
+          <dl class="detail-meta">
+            <div>
+              <dt>分类</dt>
+              <dd>{html.escape(category)}</dd>
+            </div>
+{host_row}
+          </dl>
           <div class="hero-actions">
             {official}
             <a class="btn btn-secondary" href="../list.html?category={html.escape(cat_q, quote=True)}">更多{html.escape(category)}</a>
