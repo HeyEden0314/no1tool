@@ -5,7 +5,8 @@
     "href": "https://www.muset.ai",
     "img": "images/001-muset.png",
     "category": "AI写作",
-    "status": "published"
+    "status": "published",
+    "slug": "001-muset"
   },
   {
     "title": "满血DeepSeek-问小白",
@@ -13,7 +14,8 @@
     "href": "https://www.wenxiaobai.com",
     "img": "images/002-满血deepseek-问小白.png",
     "category": "AI写作",
-    "status": "published"
+    "status": "published",
+    "slug": "002-满血deepseek-问小白"
   },
   {
     "title": "蛙蛙写作",
@@ -21,7 +23,8 @@
     "href": "https://wawawriter.com/app",
     "img": "images/003-蛙蛙写作.png",
     "category": "AI写作",
-    "status": "published"
+    "status": "published",
+    "slug": "003-蛙蛙写作"
   },
   {
     "title": "讯飞文书 – 免费体验",
@@ -29,7 +32,8 @@
     "href": "https://gw.iflydocs.com",
     "img": "images/004-讯飞文书-免费体验.png",
     "category": "AI写作",
-    "status": "published"
+    "status": "published",
+    "slug": "004-讯飞文书-免费体验"
   },
   {
     "title": "稿定AI文案",
@@ -37,7 +41,8 @@
     "href": "https://www.gaoding.com/utms/5d3a5454b07a4fe6baba040a748d398d",
     "img": "images/005-稿定ai文案.png",
     "category": "AI写作",
-    "status": "published"
+    "status": "published",
+    "slug": "005-稿定ai文案"
   },
   {
     "title": "析易-AI论文_数据分析",
@@ -45,7 +50,8 @@
     "href": "https://www.xieasy.com/tools/paperWritingMarket",
     "img": "images/006-析易-ai论文-数据分析.png",
     "category": "AI写作",
-    "status": "published"
+    "status": "published",
+    "slug": "006-析易-ai论文-数据分析"
   },
   {
     "title": "笔灵AI写作",
@@ -53,7 +59,8 @@
     "href": "https://ibiling.cn",
     "img": "images/007-笔灵ai写作.png",
     "category": "AI写作",
-    "status": "published"
+    "status": "published",
+    "slug": "007-笔灵ai写作"
   },
   {
     "title": "讯飞星火",
@@ -61,7 +68,8 @@
     "href": "https://xinghuo.xfyun.cn/desk",
     "img": "images/008-讯飞星火.png",
     "category": "AI写作",
-    "status": "published"
+    "status": "published",
+    "slug": "008-讯飞星火"
   },
   {
     "title": "AI论文-高质量(包过查重)",
@@ -69,7 +77,8 @@
     "href": "https://www.66paper.cn/AI_A13D921",
     "img": "images/009-ai论文-高质量-包过查重.png",
     "category": "AI写作",
-    "status": "published"
+    "status": "published",
+    "slug": "009-ai论文-高质量-包过查重"
   },
   {
     "title": "千笔AI论文-AIPaperPass",
@@ -77,7 +86,8 @@
     "href": "https://www.qianbixiezuo.com",
     "img": "images/010-千笔ai论文-aipaperpass.png",
     "category": "AI写作",
-    "status": "published"
+    "status": "published",
+    "slug": "010-千笔ai论文-aipaperpass"
   },
   {
     "title": "万能小in一键论文",
@@ -85,7 +95,8 @@
     "href": "https://xiaoin.com.cn/create",
     "img": "images/011-万能小in一键论文.png",
     "category": "AI写作",
-    "status": "published"
+    "status": "published",
+    "slug": "011-万能小in一键论文"
   },
   {
     "title": "Paperpal",
@@ -93,7 +104,8 @@
     "href": "https://www.editage.cn/paperpal",
     "img": "images/012-paperpal.png",
     "category": "AI写作",
-    "status": "published"
+    "status": "published",
+    "slug": "012-paperpal"
   },
   {
     "title": "讯飞绘文",
@@ -101,7 +113,8 @@
     "href": "https://turbodesk.xfyun.cn/client-pro",
     "img": "images/013-讯飞绘文.png",
     "category": "AI写作",
-    "status": "published"
+    "status": "published",
+    "slug": "013-讯飞绘文"
   },
   {
     "title": "茅茅虫AI论文助手",
@@ -109,7 +122,8 @@
     "href": "https://www.mmc.cc",
     "img": "images/014-茅茅虫ai论文助手.png",
     "category": "AI写作",
-    "status": "published"
+    "status": "published",
+    "slug": "014-茅茅虫ai论文助手"
   },
   {
     "title": "PaperFake AI写论文",
@@ -117,7 +131,8 @@
     "href": "https://paperfake.cn/pc",
     "img": "images/015-paperfake-ai写论文.png",
     "category": "AI写作",
-    "status": "published"
+    "status": "published",
+    "slug": "015-paperfake-ai写论文"
   },
   {
     "title": "小鱼AI写作 – 免费",
@@ -125,7 +140,8 @@
     "href": "https://www.xiaoyuxiezuo.com/AI_A13d921",
     "img": "images/016-小鱼ai写作-免费.png",
     "category": "AI写作",
-    "status": "published"
+    "status": "published",
+    "slug": "016-小鱼ai写作-免费"
   },
   {
     "title": "万彩AI",
@@ -133,7 +149,8 @@
     "href": "https://ai.kezhan365.com",
     "img": "images/017-万彩ai.png",
     "category": "AI写作",
-    "status": "published"
+    "status": "published",
+    "slug": "017-万彩ai"
   },
   {
     "title": "AI内容管家-免费100篇",
@@ -141,7 +158,8 @@
     "href": "https://guanjia.seowhy.com",
     "img": "images/018-ai内容管家-免费100篇.png",
     "category": "AI写作",
-    "status": "published"
+    "status": "published",
+    "slug": "018-ai内容管家-免费100篇"
   },
   {
     "title": "慧言AI",
@@ -149,7 +167,8 @@
     "href": "https://aigc.huiyan-ai.cn",
     "img": "images/019-慧言ai.png",
     "category": "AI写作",
-    "status": "published"
+    "status": "published",
+    "slug": "019-慧言ai"
   },
   {
     "title": "豆包AI写作助手",
@@ -157,7 +176,8 @@
     "href": "https://www.doubao.com/chat/write",
     "img": "images/020-豆包ai写作助手.png",
     "category": "AI写作",
-    "status": "published"
+    "status": "published",
+    "slug": "020-豆包ai写作助手"
   },
   {
     "title": "迅捷AI写作",
@@ -165,7 +185,8 @@
     "href": "https://www.aichat1234.com/app",
     "img": "images/021-迅捷ai写作.png",
     "category": "AI写作",
-    "status": "published"
+    "status": "published",
+    "slug": "021-迅捷ai写作"
   },
   {
     "title": "酷宣AI",
@@ -173,7 +194,8 @@
     "href": "https://kuxuanai.com",
     "img": "images/022-酷宣ai.png",
     "category": "AI写作",
-    "status": "published"
+    "status": "published",
+    "slug": "022-酷宣ai"
   },
   {
     "title": "新华妙笔AI",
@@ -181,7 +203,8 @@
     "href": "https://miaobi.xinhuaskl.com",
     "img": "images/023-新华妙笔ai.png",
     "category": "AI写作",
-    "status": "published"
+    "status": "published",
+    "slug": "023-新华妙笔ai"
   },
   {
     "title": "百度文库AI助手",
@@ -189,7 +212,8 @@
     "href": "https://wenku.baidu.com/ndlaunch/browse/chat",
     "img": "images/024-百度文库ai助手.png",
     "category": "AI写作",
-    "status": "published"
+    "status": "published",
+    "slug": "024-百度文库ai助手"
   },
   {
     "title": "橙篇",
@@ -197,7 +221,8 @@
     "href": "https://cp.baidu.com",
     "img": "images/025-橙篇.png",
     "category": "AI写作",
-    "status": "published"
+    "status": "published",
+    "slug": "025-橙篇"
   },
   {
     "title": "文字游侠-AI一键写头条",
@@ -205,7 +230,8 @@
     "href": "https://wenan.tcbot.cc",
     "img": "images/026-文字游侠-ai一键写头条.png",
     "category": "AI写作",
-    "status": "published"
+    "status": "published",
+    "slug": "026-文字游侠-ai一键写头条"
   },
   {
     "title": "智谱AI写作助手",
@@ -213,7 +239,8 @@
     "href": "https://chatglm.cn/main/alltoolsdetail",
     "img": "images/027-智谱ai写作助手.png",
     "category": "AI写作",
-    "status": "published"
+    "status": "published",
+    "slug": "027-智谱ai写作助手"
   },
   {
     "title": "VM技术库-IT运维专用",
@@ -221,7 +248,8 @@
     "href": "https://m.vmlib.com/appList",
     "img": "images/028-vm技术库-it运维专用.png",
     "category": "AI写作",
-    "status": "published"
+    "status": "published",
+    "slug": "028-vm技术库-it运维专用"
   },
   {
     "title": "墨狐AI写小说",
@@ -229,7 +257,8 @@
     "href": "https://inkfox-ai.com",
     "img": "images/029-墨狐ai写小说.png",
     "category": "AI写作",
-    "status": "published"
+    "status": "published",
+    "slug": "029-墨狐ai写小说"
   },
   {
     "title": "边界AI平台",
@@ -237,7 +266,8 @@
     "href": "https://yyai8.com",
     "img": "images/030-边界ai平台.png",
     "category": "AI写作",
-    "status": "published"
+    "status": "published",
+    "slug": "030-边界ai平台"
   },
   {
     "title": "可灵AI",
@@ -245,7 +275,8 @@
     "href": "https://app.klingai.com/cn",
     "img": "images/031-可灵ai.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "031-可灵ai"
   },
   {
     "title": "星流AI",
@@ -253,7 +284,8 @@
     "href": "https://www.xingliu.art",
     "img": "images/032-星流ai.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "032-星流ai"
   },
   {
     "title": "稿定AI",
@@ -261,7 +293,8 @@
     "href": "https://www.gaoding.com",
     "img": "images/033-稿定ai.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "033-稿定ai"
   },
   {
     "title": "即梦",
@@ -269,7 +302,8 @@
     "href": "https://dis.csqixiang.cn",
     "img": "images/034-即梦.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "034-即梦"
   },
   {
     "title": "堆友AI反应堆",
@@ -277,7 +311,8 @@
     "href": "https://d.design/ai/generate",
     "img": "images/035-堆友ai反应堆.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "035-堆友ai反应堆"
   },
   {
     "title": "光子AI",
@@ -285,7 +320,8 @@
     "href": "https://www.photonaiclub.com/index",
     "img": "images/036-光子ai.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "036-光子ai"
   },
   {
     "title": "阿贝智能",
@@ -293,7 +329,8 @@
     "href": "https://abeiai.com",
     "img": "images/037-阿贝智能.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "037-阿贝智能"
   },
   {
     "title": "Midjourney",
@@ -301,7 +338,8 @@
     "href": "https://www.midjourney.com/home",
     "img": "images/038-midjourney.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "038-midjourney"
   },
   {
     "title": "Stable Diffusion",
@@ -309,7 +347,8 @@
     "href": "https://stabledifffusion.com",
     "img": "images/039-stable-diffusion.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "039-stable-diffusion"
   },
   {
     "title": "LiblibAI·哩布哩布AI",
@@ -317,7 +356,8 @@
     "href": "https://www.liblib.art/viphome",
     "img": "images/040-liblibai-哩布哩布ai.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "040-liblibai-哩布哩布ai"
   },
   {
     "title": "Civitai",
@@ -325,7 +365,8 @@
     "href": "https://civitai.com",
     "img": "images/041-civitai.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "041-civitai"
   },
   {
     "title": "吐司AI",
@@ -333,7 +374,8 @@
     "href": "https://tusi.cn/",
     "img": "images/042-吐司ai.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "042-吐司ai"
   },
   {
     "title": "RunningHub",
@@ -341,7 +383,8 @@
     "href": "https://www.runninghub.cn",
     "img": "images/043-runninghub.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "043-runninghub"
   },
   {
     "title": "通义万相",
@@ -349,7 +392,8 @@
     "href": "https://tongyi.aliyun.com/wan",
     "img": "images/044-通义万相.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "044-通义万相"
   },
   {
     "title": "秒画",
@@ -357,7 +401,8 @@
     "href": "https://miaohua.sensetime.com/inspiration",
     "img": "images/045-秒画.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "045-秒画"
   },
   {
     "title": "insMind",
@@ -365,7 +410,8 @@
     "href": "https://www.insmind.com",
     "img": "images/046-insmind.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "046-insmind"
   },
   {
     "title": "AI改图神器",
@@ -373,7 +419,8 @@
     "href": "https://www.logosc.cn/design/tools",
     "img": "images/047-ai改图神器.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "047-ai改图神器"
   },
   {
     "title": "炉米Lumi",
@@ -381,7 +428,8 @@
     "href": "https://ai.codefather.cn/tool/all/AI%E5%9B%BE%E5%83%8F",
     "img": "images/048-炉米lumi.png",
     "category": "AI图像",
-    "status": "unpublished"
+    "status": "unpublished",
+    "slug": "048-炉米lumi"
   },
   {
     "title": "Krea AI",
@@ -389,7 +437,8 @@
     "href": "https://www.krea.ai",
     "img": "images/049-krea-ai.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "049-krea-ai"
   },
   {
     "title": "Kira",
@@ -397,7 +446,8 @@
     "href": "https://kira.art",
     "img": "images/050-kira.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "050-kira"
   },
   {
     "title": "Ribbet.ai",
@@ -405,7 +455,8 @@
     "href": "https://ribbet.ai",
     "img": "images/051-ribbet-ai.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "051-ribbet-ai"
   },
   {
     "title": "万相营造",
@@ -413,7 +464,8 @@
     "href": "https://agi.taobao.com",
     "img": "images/052-万相营造.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "052-万相营造"
   },
   {
     "title": "WHEE",
@@ -421,7 +473,8 @@
     "href": "https://www.whee.com",
     "img": "images/053-whee.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "053-whee"
   },
   {
     "title": "奇域AI",
@@ -429,7 +482,8 @@
     "href": "https://www.qiyuai.net",
     "img": "images/054-奇域ai.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "054-奇域ai"
   },
   {
     "title": "悟空图像PhotoSir",
@@ -437,7 +491,8 @@
     "href": "https://www.photosir.com",
     "img": "images/055-悟空图像photosir.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "055-悟空图像photosir"
   },
   {
     "title": "360智图",
@@ -445,7 +500,8 @@
     "href": "https://pic.360.com/home",
     "img": "images/056-360智图.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "056-360智图"
   },
   {
     "title": "像素蛋糕",
@@ -453,7 +509,8 @@
     "href": "https://www.pixcakeai.com",
     "img": "images/057-像素蛋糕.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "057-像素蛋糕"
   },
   {
     "title": "如果相机",
@@ -461,7 +518,8 @@
     "href": "https://ifshot.com",
     "img": "images/058-如果相机.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "058-如果相机"
   },
   {
     "title": "remove.bg",
@@ -469,7 +527,8 @@
     "href": "https://www.remove.bg/zh",
     "img": "images/059-remove-bg.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "059-remove-bg"
   },
   {
     "title": "ARC",
@@ -477,7 +536,8 @@
     "href": "https://arc.tencent.com/zh/login",
     "img": "images/060-arc.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "060-arc"
   },
   {
     "title": "内容特工队",
@@ -485,7 +545,8 @@
     "href": "https://www.reelsagent.com",
     "img": "images/061-内容特工队.png",
     "category": "AI视频",
-    "status": "published"
+    "status": "published",
+    "slug": "061-内容特工队"
   },
   {
     "title": "造点AI",
@@ -493,7 +554,8 @@
     "href": "https://www.zaodian.com",
     "img": "images/062-造点ai.png",
     "category": "AI视频",
-    "status": "published"
+    "status": "published",
+    "slug": "062-造点ai"
   },
   {
     "title": "萌动AI",
@@ -501,7 +563,8 @@
     "href": "https://www.animon.com",
     "img": "images/063-萌动ai.png",
     "category": "AI视频",
-    "status": "published"
+    "status": "published",
+    "slug": "063-萌动ai"
   },
   {
     "title": "磁力开创",
@@ -509,7 +572,8 @@
     "href": "https://kc.kuaishou.com",
     "img": "images/064-磁力开创.png",
     "category": "AI视频",
-    "status": "published"
+    "status": "published",
+    "slug": "064-磁力开创"
   },
   {
     "title": "HitPaw",
@@ -517,7 +581,8 @@
     "href": "https://www.hitpaw.com",
     "img": "images/065-hitpaw.png",
     "category": "AI视频",
-    "status": "published"
+    "status": "published",
+    "slug": "065-hitpaw"
   },
   {
     "title": "SekoTalk",
@@ -525,7 +590,8 @@
     "href": "https://sekotalk.com",
     "img": "images/066-sekotalk.png",
     "category": "AI视频",
-    "status": "published"
+    "status": "published",
+    "slug": "066-sekotalk"
   },
   {
     "title": "通义灵眸",
@@ -533,7 +599,8 @@
     "href": "https://avatar.console.aliyun.com/lingmou",
     "img": "images/067-通义灵眸.png",
     "category": "AI视频",
-    "status": "published"
+    "status": "published",
+    "slug": "067-通义灵眸"
   },
   {
     "title": "讯飞绘镜",
@@ -541,7 +608,8 @@
     "href": "https://typemovie.art",
     "img": "images/068-讯飞绘镜.png",
     "category": "AI视频",
-    "status": "published"
+    "status": "published",
+    "slug": "068-讯飞绘镜"
   },
   {
     "title": "Vidu",
@@ -549,7 +617,8 @@
     "href": "https://www.vidu.cn",
     "img": "images/069-vidu.png",
     "category": "AI视频",
-    "status": "published"
+    "status": "published",
+    "slug": "069-vidu"
   },
   {
     "title": "Keevx",
@@ -557,7 +626,8 @@
     "href": "https://www.keevx.com/main/home",
     "img": "images/070-keevx.png",
     "category": "AI视频",
-    "status": "published"
+    "status": "published",
+    "slug": "070-keevx"
   },
   {
     "title": "SoundView",
@@ -565,7 +635,8 @@
     "href": "https://soundviewai.com/home",
     "img": "images/071-soundview.png",
     "category": "AI视频",
-    "status": "published"
+    "status": "published",
+    "slug": "071-soundview"
   },
   {
     "title": "创一AI",
@@ -573,7 +644,8 @@
     "href": "https://www.creatifyone.com",
     "img": "images/072-创一ai.png",
     "category": "AI视频",
-    "status": "published"
+    "status": "published",
+    "slug": "072-创一ai"
   },
   {
     "title": "绘蛙AI视频",
@@ -581,7 +653,8 @@
     "href": "https://www.ihuiwa.com/workspace/ai-video/custom-action",
     "img": "images/073-绘蛙ai视频.png",
     "category": "AI视频",
-    "status": "published"
+    "status": "published",
+    "slug": "073-绘蛙ai视频"
   },
   {
     "title": "有言",
@@ -589,7 +662,8 @@
     "href": "https://www.youyan3d.com/platform",
     "img": "images/074-有言.png",
     "category": "AI视频",
-    "status": "published"
+    "status": "published",
+    "slug": "074-有言"
   },
   {
     "title": "白日梦",
@@ -597,7 +671,8 @@
     "href": "https://aibrm.com",
     "img": "images/075-白日梦.png",
     "category": "AI视频",
-    "status": "published"
+    "status": "published",
+    "slug": "075-白日梦"
   },
   {
     "title": "巨日禄",
@@ -605,7 +680,8 @@
     "href": "https://ai.jurilu.com",
     "img": "images/076-巨日禄.png",
     "category": "AI视频",
-    "status": "published"
+    "status": "published",
+    "slug": "076-巨日禄"
   },
   {
     "title": "HeyGen",
@@ -613,7 +689,8 @@
     "href": "https://www.heygen.com/zh-cn",
     "img": "images/077-heygen.png",
     "category": "AI视频",
-    "status": "published"
+    "status": "published",
+    "slug": "077-heygen"
   },
   {
     "title": "蝉镜",
@@ -621,7 +698,8 @@
     "href": "https://www.chanjing.cc",
     "img": "images/078-蝉镜.png",
     "category": "AI视频",
-    "status": "published"
+    "status": "published",
+    "slug": "078-蝉镜"
   },
   {
     "title": "光子AI视频",
@@ -629,7 +707,8 @@
     "href": "https://www.photonaiclub.com/workspace/imgToVideo",
     "img": "images/079-光子ai视频.png",
     "category": "AI视频",
-    "status": "published"
+    "status": "published",
+    "slug": "079-光子ai视频"
   },
   {
     "title": "海螺视频",
@@ -637,7 +716,8 @@
     "href": "https://hailuoai.com",
     "img": "images/080-海螺视频.png",
     "category": "AI视频",
-    "status": "published"
+    "status": "published",
+    "slug": "080-海螺视频"
   },
   {
     "title": "腾讯混元AI视频",
@@ -645,7 +725,8 @@
     "href": "https://video.hunyuan.tencent.com/login",
     "img": "images/081-腾讯混元ai视频.png",
     "category": "AI视频",
-    "status": "published"
+    "status": "published",
+    "slug": "081-腾讯混元ai视频"
   },
   {
     "title": "通义万相AI视频",
@@ -653,7 +734,8 @@
     "href": "https://tongyi.aliyun.com/wan",
     "img": "images/082-通义万相ai视频.png",
     "category": "AI视频",
-    "status": "published"
+    "status": "published",
+    "slug": "082-通义万相ai视频"
   },
   {
     "title": "智谱清影",
@@ -661,7 +743,8 @@
     "href": "https://chatglm.cn/main/alltoolsdetail",
     "img": "images/083-智谱清影.png",
     "category": "AI视频",
-    "status": "published"
+    "status": "published",
+    "slug": "083-智谱清影"
   },
   {
     "title": "JoyPix",
@@ -669,7 +752,8 @@
     "href": "https://www.joypix.ai",
     "img": "images/084-joypix.png",
     "category": "AI视频",
-    "status": "published"
+    "status": "published",
+    "slug": "084-joypix"
   },
   {
     "title": "Higgsfield",
@@ -677,7 +761,8 @@
     "href": "https://higgsfield.ai",
     "img": "images/085-higgsfield.png",
     "category": "AI视频",
-    "status": "published"
+    "status": "published",
+    "slug": "085-higgsfield"
   },
   {
     "title": "Pollo AI",
@@ -685,7 +770,8 @@
     "href": "https://pollo.ai",
     "img": "images/086-pollo-ai.png",
     "category": "AI视频",
-    "status": "published"
+    "status": "published",
+    "slug": "086-pollo-ai"
   },
   {
     "title": "Runway",
@@ -693,7 +779,8 @@
     "href": "https://runwayml.com",
     "img": "images/087-runway.png",
     "category": "AI视频",
-    "status": "published"
+    "status": "published",
+    "slug": "087-runway"
   },
   {
     "title": "Sora",
@@ -701,7 +788,8 @@
     "href": "https://openai.com/sora",
     "img": "images/088-sora.png",
     "category": "AI视频",
-    "status": "published"
+    "status": "published",
+    "slug": "088-sora"
   },
   {
     "title": "Pika",
@@ -709,7 +797,8 @@
     "href": "https://pika.art/login",
     "img": "images/089-pika.png",
     "category": "AI视频",
-    "status": "published"
+    "status": "published",
+    "slug": "089-pika"
   },
   {
     "title": "腾讯智影",
@@ -717,7 +806,8 @@
     "href": "https://zenvideo.qq.com",
     "img": "images/090-腾讯智影.png",
     "category": "AI视频",
-    "status": "published"
+    "status": "published",
+    "slug": "090-腾讯智影"
   },
   {
     "title": "Pi智能演示文档",
@@ -725,7 +815,8 @@
     "href": "https://pi.deepvinci.tech/login",
     "img": "images/091-pi智能演示文档.png",
     "category": "AI办公",
-    "status": "published"
+    "status": "published",
+    "slug": "091-pi智能演示文档"
   },
   {
     "title": "咔片PPT",
@@ -733,7 +824,8 @@
     "href": "https://www.cappt.cc",
     "img": "images/092-咔片ppt.png",
     "category": "AI办公",
-    "status": "published"
+    "status": "published",
+    "slug": "092-咔片ppt"
   },
   {
     "title": "博思AIPPT",
@@ -741,7 +833,8 @@
     "href": "https://pptgo.cn",
     "img": "images/093-博思aippt.png",
     "category": "AI办公",
-    "status": "published"
+    "status": "published",
+    "slug": "093-博思aippt"
   },
   {
     "title": "文多多AiPPT",
@@ -749,7 +842,8 @@
     "href": "https://docmee.cn/zh",
     "img": "images/094-文多多aippt.png",
     "category": "AI办公",
-    "status": "published"
+    "status": "published",
+    "slug": "094-文多多aippt"
   },
   {
     "title": "Pi-AI原生PPT",
@@ -757,7 +851,8 @@
     "href": "https://pi.deepvinci.tech",
     "img": "images/095-pi-ai原生ppt.png",
     "category": "AI办公",
-    "status": "published"
+    "status": "published",
+    "slug": "095-pi-ai原生ppt"
   },
   {
     "title": "iSlide AIPPT",
@@ -765,7 +860,8 @@
     "href": "https://www.islide.cc",
     "img": "images/096-islide-aippt.png",
     "category": "AI办公",
-    "status": "published"
+    "status": "published",
+    "slug": "096-islide-aippt"
   },
   {
     "title": "扣子PPT",
@@ -773,7 +869,8 @@
     "href": "https://www.coze.cn",
     "img": "images/097-扣子ppt.png",
     "category": "AI办公",
-    "status": "published"
+    "status": "published",
+    "slug": "097-扣子ppt"
   },
   {
     "title": "稿定PPT",
@@ -781,7 +878,8 @@
     "href": "https://www.gaoding.com/utms/c2eb98df0bf24cd9a4b691b0e8d2914e",
     "img": "images/098-稿定ppt.png",
     "category": "AI办公",
-    "status": "published"
+    "status": "published",
+    "slug": "098-稿定ppt"
   },
   {
     "title": "笔格AIPPT",
@@ -789,7 +887,8 @@
     "href": "https://bigppt.cn",
     "img": "images/099-笔格aippt.png",
     "category": "AI办公",
-    "status": "published"
+    "status": "published",
+    "slug": "099-笔格aippt"
   },
   {
     "title": "笔灵AIPPT",
@@ -797,7 +896,8 @@
     "href": "https://ibiling.cn/ppt-zone",
     "img": "images/100-笔灵aippt.png",
     "category": "AI办公",
-    "status": "published"
+    "status": "published",
+    "slug": "100-笔灵aippt"
   },
   {
     "title": "讯飞智文",
@@ -805,7 +905,8 @@
     "href": "https://zhiwen.xfyun.cn/home",
     "img": "images/101-讯飞智文.png",
     "category": "AI办公",
-    "status": "published"
+    "status": "published",
+    "slug": "101-讯飞智文"
   },
   {
     "title": "百度文库AI助手",
@@ -813,7 +914,8 @@
     "href": "https://wenku.baidu.com/ndlaunch/browse/chat",
     "img": "images/102-百度文库ai助手.png",
     "category": "AI写作",
-    "status": "published"
+    "status": "published",
+    "slug": "102-百度文库ai助手"
   },
   {
     "title": "Gamma",
@@ -821,7 +923,8 @@
     "href": "https://gamma.app",
     "img": "images/103-gamma.png",
     "category": "AI办公",
-    "status": "published"
+    "status": "published",
+    "slug": "103-gamma"
   },
   {
     "title": "Napkin",
@@ -829,7 +932,8 @@
     "href": "https://www.napkin.ai",
     "img": "images/104-napkin.png",
     "category": "AI办公",
-    "status": "published"
+    "status": "published",
+    "slug": "104-napkin"
   },
   {
     "title": "PicDoc",
@@ -837,7 +941,8 @@
     "href": "https://www.picdoc.cn",
     "img": "images/105-picdoc.png",
     "category": "AI办公",
-    "status": "published"
+    "status": "published",
+    "slug": "105-picdoc"
   },
   {
     "title": "VoxDeck",
@@ -845,7 +950,8 @@
     "href": "https://www.voxdeck.ai",
     "img": "images/106-voxdeck.png",
     "category": "AI办公",
-    "status": "published"
+    "status": "published",
+    "slug": "106-voxdeck"
   },
   {
     "title": "AiBiao",
@@ -853,7 +959,8 @@
     "href": "https://www.aibiao.com",
     "img": "images/107-aibiao.png",
     "category": "AI办公",
-    "status": "published"
+    "status": "published",
+    "slug": "107-aibiao"
   },
   {
     "title": "美图AI PPT",
@@ -861,7 +968,8 @@
     "href": "https://ppt.designkit.com/workspace",
     "img": "images/108-美图ai-ppt.png",
     "category": "AI办公",
-    "status": "published"
+    "status": "published",
+    "slug": "108-美图ai-ppt"
   },
   {
     "title": "Kimi PPT助手",
@@ -869,7 +977,8 @@
     "href": "https://www.kimi.com/kimiplus/cvvm7bkheutnihqi2100",
     "img": "images/109-kimi-ppt助手.png",
     "category": "AI办公",
-    "status": "published"
+    "status": "published",
+    "slug": "109-kimi-ppt助手"
   },
   {
     "title": "清言PPT",
@@ -877,7 +986,8 @@
     "href": "https://chatglm.cn",
     "img": "images/110-清言ppt.png",
     "category": "AI办公",
-    "status": "published"
+    "status": "published",
+    "slug": "110-清言ppt"
   },
   {
     "title": "万兴智演",
@@ -885,7 +995,8 @@
     "href": "https://zhiyan.wondershare.cn",
     "img": "images/111-万兴智演.png",
     "category": "AI办公",
-    "status": "published"
+    "status": "published",
+    "slug": "111-万兴智演"
   },
   {
     "title": "歌者AI",
@@ -893,7 +1004,8 @@
     "href": "https://u.caixuan.cc/gezhe",
     "img": "images/112-歌者ai.png",
     "category": "AI办公",
-    "status": "published"
+    "status": "published",
+    "slug": "112-歌者ai"
   },
   {
     "title": "ChatBA",
@@ -901,7 +1013,8 @@
     "href": "https://www.chatba.com",
     "img": "images/113-chatba.png",
     "category": "AI办公",
-    "status": "published"
+    "status": "published",
+    "slug": "113-chatba"
   },
   {
     "title": "Decktopus AI",
@@ -909,7 +1022,8 @@
     "href": "https://www.decktopus.com",
     "img": "images/114-decktopus-ai.png",
     "category": "AI办公",
-    "status": "published"
+    "status": "published",
+    "slug": "114-decktopus-ai"
   },
   {
     "title": "Powerpresent AI",
@@ -917,7 +1031,8 @@
     "href": "https://www.powerpresent.ai",
     "img": "images/115-powerpresent-ai.png",
     "category": "AI办公",
-    "status": "published"
+    "status": "published",
+    "slug": "115-powerpresent-ai"
   },
   {
     "title": "希沃白板",
@@ -925,7 +1040,8 @@
     "href": "https://easinote.seewo.com",
     "img": "images/116-希沃白板.png",
     "category": "AI办公",
-    "status": "published"
+    "status": "published",
+    "slug": "116-希沃白板"
   },
   {
     "title": "秒出PPT",
@@ -933,7 +1049,8 @@
     "href": "https://10sppt.com/pptx",
     "img": "images/117-秒出ppt.png",
     "category": "AI办公",
-    "status": "published"
+    "status": "published",
+    "slug": "117-秒出ppt"
   },
   {
     "title": "GAIPPT",
@@ -941,7 +1058,8 @@
     "href": "https://www.gaippt.com",
     "img": "images/118-gaippt.png",
     "category": "AI办公",
-    "status": "published"
+    "status": "published",
+    "slug": "118-gaippt"
   },
   {
     "title": "beautiful.ai",
@@ -949,7 +1067,8 @@
     "href": "https://www.beautiful.ai",
     "img": "images/119-beautiful-ai.png",
     "category": "AI办公",
-    "status": "published"
+    "status": "published",
+    "slug": "119-beautiful-ai"
   },
   {
     "title": "麦当秀MindShow",
@@ -957,7 +1076,8 @@
     "href": "https://www.mindshow.fun",
     "img": "images/120-麦当秀mindshow.png",
     "category": "AI办公",
-    "status": "published"
+    "status": "published",
+    "slug": "120-麦当秀mindshow"
   },
   {
     "title": "码上飞-AI生成小程序",
@@ -965,7 +1085,8 @@
     "href": "https://www.codeflying.net",
     "img": "images/121-码上飞-ai生成小程序.png",
     "category": "AI开发",
-    "status": "published"
+    "status": "published",
+    "slug": "121-码上飞-ai生成小程序"
   },
   {
     "title": "小浣熊AI助手",
@@ -973,7 +1094,8 @@
     "href": "https://www.xiaohuanxiong.com/login",
     "img": "images/122-小浣熊ai助手.png",
     "category": "AI开发",
-    "status": "published"
+    "status": "published",
+    "slug": "122-小浣熊ai助手"
   },
   {
     "title": "豆包AI编程",
@@ -981,7 +1103,8 @@
     "href": "https://www.doubao.com/chat/coding",
     "img": "images/123-豆包ai编程.png",
     "category": "AI开发",
-    "status": "published"
+    "status": "published",
+    "slug": "123-豆包ai编程"
   },
   {
     "title": "NoCode",
@@ -989,7 +1112,8 @@
     "href": "https://nocode.cn",
     "img": "images/124-nocode.png",
     "category": "AI开发",
-    "status": "published"
+    "status": "published",
+    "slug": "124-nocode"
   },
   {
     "title": "CodingSee-AI伴学",
@@ -997,7 +1121,8 @@
     "href": "https://www.codingsee.com",
     "img": "images/125-codingsee-ai伴学.png",
     "category": "AI开发",
-    "status": "published"
+    "status": "published",
+    "slug": "125-codingsee-ai伴学"
   },
   {
     "title": "驭码CodeRider",
@@ -1005,7 +1130,8 @@
     "href": "https://coderider.gitlab.cn",
     "img": "images/126-驭码coderider.png",
     "category": "AI开发",
-    "status": "published"
+    "status": "published",
+    "slug": "126-驭码coderider"
   },
   {
     "title": "图像大厨Imgcook",
@@ -1013,7 +1139,8 @@
     "href": "https://www.imgcook.com",
     "img": "images/127-图像大厨imgcook.png",
     "category": "AI开发",
-    "status": "published"
+    "status": "published",
+    "slug": "127-图像大厨imgcook"
   },
   {
     "title": "Joker",
@@ -1021,7 +1148,8 @@
     "href": "https://www.jokers.pub",
     "img": "images/128-joker.png",
     "category": "AI开发",
-    "status": "published"
+    "status": "published",
+    "slug": "128-joker"
   },
   {
     "title": "速码大师codingM",
@@ -1029,7 +1157,8 @@
     "href": "https://www.codingm.cn/codingM",
     "img": "images/129-速码大师codingm.png",
     "category": "AI开发",
-    "status": "published"
+    "status": "published",
+    "slug": "129-速码大师codingm"
   },
   {
     "title": "天壤小白",
@@ -1037,7 +1166,8 @@
     "href": "https://www.tianrang.com",
     "img": "images/130-天壤小白.png",
     "category": "AI开发",
-    "status": "published"
+    "status": "published",
+    "slug": "130-天壤小白"
   },
   {
     "title": "GitHub Copilot",
@@ -1045,7 +1175,8 @@
     "href": "https://github.com/features/copilot",
     "img": "images/131-github-copilot.png",
     "category": "AI开发",
-    "status": "published"
+    "status": "published",
+    "slug": "131-github-copilot"
   },
   {
     "title": "CodeWhisperer",
@@ -1053,7 +1184,8 @@
     "href": "https://aws.amazon.com/cn/codewhisperer/",
     "img": "images/132-codewhisperer.png",
     "category": "AI开发",
-    "status": "published"
+    "status": "published",
+    "slug": "132-codewhisperer"
   },
   {
     "title": "通义灵码",
@@ -1061,7 +1193,8 @@
     "href": "https://lingma.aliyun.com/lingma",
     "img": "images/133-通义灵码.png",
     "category": "AI开发",
-    "status": "published"
+    "status": "published",
+    "slug": "133-通义灵码"
   },
   {
     "title": "Bolt.new",
@@ -1069,7 +1202,8 @@
     "href": "https://bolt.new",
     "img": "images/134-bolt-new.png",
     "category": "AI开发",
-    "status": "published"
+    "status": "published",
+    "slug": "134-bolt-new"
   },
   {
     "title": "Plandex",
@@ -1077,7 +1211,8 @@
     "href": "https://plandex.ai",
     "img": "images/135-plandex.png",
     "category": "AI开发",
-    "status": "published"
+    "status": "published",
+    "slug": "135-plandex"
   },
   {
     "title": "Tabby",
@@ -1085,7 +1220,8 @@
     "href": "https://www.tabbyml.com",
     "img": "images/136-tabby.png",
     "category": "AI开发",
-    "status": "published"
+    "status": "published",
+    "slug": "136-tabby"
   },
   {
     "title": "Fitten Code",
@@ -1093,7 +1229,8 @@
     "href": "https://code.fittentech.com",
     "img": "images/137-fitten-code.png",
     "category": "AI开发",
-    "status": "published"
+    "status": "published",
+    "slug": "137-fitten-code"
   },
   {
     "title": "SoloLearn",
@@ -1101,7 +1238,8 @@
     "href": "https://www.sololearn.com/en",
     "img": "images/138-sololearn.png",
     "category": "AI开发",
-    "status": "published"
+    "status": "published",
+    "slug": "138-sololearn"
   },
   {
     "title": "CHTML",
@@ -1109,7 +1247,8 @@
     "href": "https://www.chtml.cn",
     "img": "images/139-chtml.png",
     "category": "AI开发",
-    "status": "published"
+    "status": "published",
+    "slug": "139-chtml"
   },
   {
     "title": "iFlyCode",
@@ -1117,7 +1256,8 @@
     "href": "https://iflycode.xfyun.cn/index",
     "img": "images/140-iflycode.png",
     "category": "AI开发",
-    "status": "published"
+    "status": "published",
+    "slug": "140-iflycode"
   },
   {
     "title": "JetBrains AI",
@@ -1125,7 +1265,8 @@
     "href": "https://www.jetbrains.com",
     "img": "images/141-jetbrains-ai.png",
     "category": "AI开发",
-    "status": "published"
+    "status": "published",
+    "slug": "141-jetbrains-ai"
   },
   {
     "title": "Open Voice OS",
@@ -1133,7 +1274,8 @@
     "href": "https://www.openvoiceos.org",
     "img": "images/142-open-voice-os.png",
     "category": "AI开发",
-    "status": "published"
+    "status": "published",
+    "slug": "142-open-voice-os"
   },
   {
     "title": "Sky-code",
@@ -1141,7 +1283,8 @@
     "href": "https://aws.amazon.com/cn/q/developer",
     "img": "images/143-sky-code.png",
     "category": "AI开发",
-    "status": "published"
+    "status": "published",
+    "slug": "143-sky-code"
   },
   {
     "title": "CodeGeeX",
@@ -1149,7 +1292,8 @@
     "href": "https://codegeex.cn/zh-CN",
     "img": "images/144-codegeex.png",
     "category": "AI开发",
-    "status": "published"
+    "status": "published",
+    "slug": "144-codegeex"
   },
   {
     "title": "JamGPT",
@@ -1157,7 +1301,8 @@
     "href": "https://jam.dev",
     "img": "images/145-jamgpt.png",
     "category": "AI开发",
-    "status": "published"
+    "status": "published",
+    "slug": "145-jamgpt"
   },
   {
     "title": "CodeFuse",
@@ -1165,7 +1310,8 @@
     "href": "https://codefuse.alipay.com/start",
     "img": "images/146-codefuse.png",
     "category": "AI开发",
-    "status": "published"
+    "status": "published",
+    "slug": "146-codefuse"
   },
   {
     "title": "HeyCLI",
@@ -1173,7 +1319,8 @@
     "href": "https://www.heycli.com",
     "img": "images/147-heycli.png",
     "category": "AI开发",
-    "status": "published"
+    "status": "published",
+    "slug": "147-heycli"
   },
   {
     "title": "Retool AI",
@@ -1181,7 +1328,8 @@
     "href": "https://retool.com/ai",
     "img": "images/148-retool-ai.png",
     "category": "AI开发",
-    "status": "published"
+    "status": "published",
+    "slug": "148-retool-ai"
   },
   {
     "title": "Visual Studio IntelliCode",
@@ -1189,7 +1337,8 @@
     "href": "https://visualstudio.microsoft.com/services/intellicode/",
     "img": "images/149-visual-studio-intellicode.png",
     "category": "AI开发",
-    "status": "published"
+    "status": "published",
+    "slug": "149-visual-studio-intellicode"
   },
   {
     "title": "BitoAI",
@@ -1197,7 +1346,8 @@
     "href": "https://bito.ai",
     "img": "images/150-bitoai.png",
     "category": "AI开发",
-    "status": "published"
+    "status": "published",
+    "slug": "150-bitoai"
   },
   {
     "title": "Tbox",
@@ -1205,7 +1355,8 @@
     "href": "https://www.tbox.cn",
     "img": "images/151-tbox.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "151-tbox"
   },
   {
     "title": "爱派AiPy",
@@ -1213,7 +1364,8 @@
     "href": "https://www.aipyaipy.com",
     "img": "images/152-爱派aipy.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "152-爱派aipy"
   },
   {
     "title": "Opera Neon",
@@ -1221,7 +1373,8 @@
     "href": "https://www.operaneon.com",
     "img": "images/153-opera-neon.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "153-opera-neon"
   },
   {
     "title": "酷宣AI",
@@ -1229,7 +1382,8 @@
     "href": "https://kuxuanai.com",
     "img": "images/154-酷宣ai.png",
     "category": "AI写作",
-    "status": "published"
+    "status": "published",
+    "slug": "154-酷宣ai"
   },
   {
     "title": "月亮树AI选品",
@@ -1237,7 +1391,8 @@
     "href": "https://www.moonstatistics.com/home",
     "img": "images/155-月亮树ai选品.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "155-月亮树ai选品"
   },
   {
     "title": "Teamo",
@@ -1245,7 +1400,8 @@
     "href": "https://teamoteam.com",
     "img": "images/156-teamo.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "156-teamo"
   },
   {
     "title": "混沌Deep Innovation",
@@ -1253,7 +1409,8 @@
     "href": "https://x.hundun.cn",
     "img": "images/157-混沌deep-innovation.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "157-混沌deep-innovation"
   },
   {
     "title": "Bloom",
@@ -1261,7 +1418,8 @@
     "href": "https://bloom.powerdrill.ai",
     "img": "images/158-bloom.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "158-bloom"
   },
   {
     "title": "小美APP",
@@ -1269,7 +1427,8 @@
     "href": "https://ai.codefather.cn/tool/all/AI%E5%BA%94%E7%94%A8",
     "img": "images/159-小美app.png",
     "category": "AI聊天",
-    "status": "unpublished"
+    "status": "unpublished",
+    "slug": "159-小美app"
   },
   {
     "title": "Seele AI",
@@ -1277,7 +1436,8 @@
     "href": "https://www.seeles.ai/home",
     "img": "images/160-seele-ai.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "160-seele-ai"
   },
   {
     "title": "扣子-AI办公",
@@ -1285,7 +1445,8 @@
     "href": "https://www.coze.cn",
     "img": "images/161-扣子-ai办公.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "161-扣子-ai办公"
   },
   {
     "title": "Flowith",
@@ -1293,7 +1454,8 @@
     "href": "https://flowith.net/blank",
     "img": "images/162-flowith.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "162-flowith"
   },
   {
     "title": "Manus",
@@ -1301,7 +1463,8 @@
     "href": "https://manus.im",
     "img": "images/163-manus.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "163-manus"
   },
   {
     "title": "Operator",
@@ -1309,7 +1472,8 @@
     "href": "https://chatgpt.com",
     "img": "images/164-operator.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "164-operator"
   },
   {
     "title": "稿定AI社区",
@@ -1317,7 +1481,8 @@
     "href": "https://www.gaoding.art/utms/64e4e1421ad845ca94125ffb1c90ccdd",
     "img": "images/165-稿定ai社区.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "165-稿定ai社区"
   },
   {
     "title": "星辰Agent",
@@ -1325,7 +1490,8 @@
     "href": "https://agent.xfyun.cn/home",
     "img": "images/166-星辰agent.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "166-星辰agent"
   },
   {
     "title": "金灵AI",
@@ -1333,7 +1499,8 @@
     "href": "https://www.gilin.com.cn",
     "img": "images/167-金灵ai.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "167-金灵ai"
   },
   {
     "title": "Skywork",
@@ -1341,7 +1508,8 @@
     "href": "https://skywork.ai",
     "img": "images/168-skywork.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "168-skywork"
   },
   {
     "title": "TabTab",
@@ -1349,7 +1517,8 @@
     "href": "https://tabtabai.com",
     "img": "images/169-tabtab.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "169-tabtab"
   },
   {
     "title": "MuleRun",
@@ -1357,7 +1526,8 @@
     "href": "https://mulerun.com",
     "img": "images/170-mulerun.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "170-mulerun"
   },
   {
     "title": "MasterAgent",
@@ -1365,7 +1535,8 @@
     "href": "https://ai.codefather.cn/tool/all/AI%E6%99%BA%E8%83%BD%E4%BD%93",
     "img": "images/171-masteragent.png",
     "category": "AI聊天",
-    "status": "unpublished"
+    "status": "unpublished",
+    "slug": "171-masteragent"
   },
   {
     "title": "Agnes AI",
@@ -1373,7 +1544,8 @@
     "href": "https://agnes-ai.com",
     "img": "images/172-agnes-ai.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "172-agnes-ai"
   },
   {
     "title": "SciMaster",
@@ -1381,7 +1553,8 @@
     "href": "https://scimaster.bohrium.com",
     "img": "images/173-scimaster.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "173-scimaster"
   },
   {
     "title": "Zeabur",
@@ -1389,7 +1562,8 @@
     "href": "https://zeabur.com/zh-CN",
     "img": "images/174-zeabur.png",
     "category": "AI开发",
-    "status": "published"
+    "status": "published",
+    "slug": "174-zeabur"
   },
   {
     "title": "MyShell",
@@ -1397,7 +1571,8 @@
     "href": "https://myshell.ai",
     "img": "images/175-myshell.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "175-myshell"
   },
   {
     "title": "FinGenius",
@@ -1405,7 +1580,8 @@
     "href": "https://fingenius.cn",
     "img": "images/176-fingenius.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "176-fingenius"
   },
   {
     "title": "RoboNeo",
@@ -1413,7 +1589,8 @@
     "href": "https://www.roboneo.com",
     "img": "images/177-roboneo.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "177-roboneo"
   },
   {
     "title": "MiniMax Agent",
@@ -1421,7 +1598,8 @@
     "href": "https://agent.minimax.io",
     "img": "images/178-minimax-agent.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "178-minimax-agent"
   },
   {
     "title": "如此AI员工",
@@ -1429,7 +1607,8 @@
     "href": "https://www.ruciapp.com",
     "img": "images/179-如此ai员工.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "179-如此ai员工"
   },
   {
     "title": "Dia",
@@ -1437,7 +1616,8 @@
     "href": "https://www.diabrowser.com",
     "img": "images/180-dia.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "180-dia"
   },
   {
     "title": "百灵大模型",
@@ -1445,7 +1625,8 @@
     "href": "https://ling.tbox.cn/chat",
     "img": "images/181-百灵大模型.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "181-百灵大模型"
   },
   {
     "title": "讯飞星火",
@@ -1453,7 +1634,8 @@
     "href": "https://xinghuo.xfyun.cn/desk",
     "img": "images/182-讯飞星火.png",
     "category": "AI写作",
-    "status": "published"
+    "status": "published",
+    "slug": "182-讯飞星火"
   },
   {
     "title": "逗逗AI",
@@ -1461,7 +1643,8 @@
     "href": "https://www.doudou.fun",
     "img": "images/183-逗逗ai.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "183-逗逗ai"
   },
   {
     "title": "ChatGPT",
@@ -1469,7 +1652,8 @@
     "href": "https://chatgpt.com",
     "img": "images/184-chatgpt.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "184-chatgpt"
   },
   {
     "title": "Claude",
@@ -1477,7 +1661,8 @@
     "href": "https://claude.ai",
     "img": "images/185-claude.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "185-claude"
   },
   {
     "title": "Kimi智能助手",
@@ -1485,7 +1670,8 @@
     "href": "https://www.kimi.com",
     "img": "images/186-kimi智能助手.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "186-kimi智能助手"
   },
   {
     "title": "DeepSeek",
@@ -1493,7 +1679,8 @@
     "href": "https://www.deepseek.com",
     "img": "images/187-deepseek.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "187-deepseek"
   },
   {
     "title": "腾讯元宝",
@@ -1501,7 +1688,8 @@
     "href": "https://yuanbao.tencent.com/chat/naQivTmsDa",
     "img": "images/188-腾讯元宝.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "188-腾讯元宝"
   },
   {
     "title": "通义",
@@ -1509,7 +1697,8 @@
     "href": "https://www.tongyi.com",
     "img": "images/189-通义.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "189-通义"
   },
   {
     "title": "MiniMax",
@@ -1517,7 +1706,8 @@
     "href": "https://chat.minimaxi.com",
     "img": "images/190-minimax.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "190-minimax"
   },
   {
     "title": "Gemini",
@@ -1525,7 +1715,8 @@
     "href": "https://deepmind.google/models/gemini",
     "img": "images/191-gemini.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "191-gemini"
   },
   {
     "title": "Z.ai",
@@ -1533,7 +1724,8 @@
     "href": "https://chat.z.ai",
     "img": "images/192-z-ai.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "192-z-ai"
   },
   {
     "title": "Qwen Chat",
@@ -1541,7 +1733,8 @@
     "href": "https://qianwen.aliyun.com/",
     "img": "images/193-qwen-chat.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "193-qwen-chat"
   },
   {
     "title": "文心一言",
@@ -1549,7 +1742,8 @@
     "href": "https://yiyan.baidu.com/",
     "img": "images/194-文心一言.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "194-文心一言"
   },
   {
     "title": "Grok",
@@ -1557,7 +1751,8 @@
     "href": "https://grok.com",
     "img": "images/195-grok.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "195-grok"
   },
   {
     "title": "智谱清言",
@@ -1565,7 +1760,8 @@
     "href": "https://chatglm.cn/main/alltoolsdetail",
     "img": "images/196-智谱清言.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "196-智谱清言"
   },
   {
     "title": "华为小艺",
@@ -1573,7 +1769,8 @@
     "href": "https://xiaoyi.huawei.com",
     "img": "images/197-华为小艺.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "197-华为小艺"
   },
   {
     "title": "书生大模型",
@@ -1581,7 +1778,8 @@
     "href": "https://intern-ai.org.cn/home",
     "img": "images/198-书生大模型.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "198-书生大模型"
   },
   {
     "title": "Poe",
@@ -1589,7 +1787,8 @@
     "href": "https://poe.com",
     "img": "images/199-poe.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "199-poe"
   },
   {
     "title": "阶跃AI",
@@ -1597,7 +1796,8 @@
     "href": "https://yuewen.cn/chats/new",
     "img": "images/200-阶跃ai.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "200-阶跃ai"
   },
   {
     "title": "百小应",
@@ -1605,7 +1805,8 @@
     "href": "https://ying.baichuan-ai.com/chat",
     "img": "images/201-百小应.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "201-百小应"
   },
   {
     "title": "天工AI",
@@ -1613,7 +1814,8 @@
     "href": "https://www.tiangong.cn",
     "img": "images/202-天工ai.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "202-天工ai"
   },
   {
     "title": "Copilot",
@@ -1621,7 +1823,8 @@
     "href": "https://ai-bot.cn/app/10397.html",
     "img": "images/203-copilot.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "203-copilot"
   },
   {
     "title": "Character.AI",
@@ -1629,7 +1832,8 @@
     "href": "https://character.ai",
     "img": "images/204-character-ai.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "204-character-ai"
   },
   {
     "title": "J1 Assistant",
@@ -1637,7 +1841,8 @@
     "href": "https://j1assistant.deepmind.com/",
     "img": "images/205-j1-assistant.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "205-j1-assistant"
   },
   {
     "title": "Meta AI助手",
@@ -1645,7 +1850,8 @@
     "href": "https://www.meta.ai",
     "img": "images/206-meta-ai助手.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "206-meta-ai助手"
   },
   {
     "title": "Bing新必应",
@@ -1653,7 +1859,8 @@
     "href": "https://www.bing.com/",
     "img": "images/207-bing新必应.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "207-bing新必应"
   },
   {
     "title": "Koko AI",
@@ -1661,7 +1868,8 @@
     "href": "https://www.seeles.ai/home",
     "img": "images/208-koko-ai.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "208-koko-ai"
   },
   {
     "title": "Me.bot",
@@ -1669,7 +1877,8 @@
     "href": "https://www.me.bot",
     "img": "images/209-me-bot.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "209-me-bot"
   },
   {
     "title": "Saylo",
@@ -1677,7 +1886,8 @@
     "href": "https://www.sayloai.com/zh-Hans",
     "img": "images/210-saylo.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "210-saylo"
   },
   {
     "title": "Tunee",
@@ -1685,7 +1895,8 @@
     "href": "https://www.tunee.ai",
     "img": "images/211-tunee.png",
     "category": "AI音频",
-    "status": "published"
+    "status": "published",
+    "slug": "211-tunee"
   },
   {
     "title": "音秘",
@@ -1693,7 +1904,8 @@
     "href": "https://audiomyst.baidu.com",
     "img": "images/212-音秘.png",
     "category": "AI音频",
-    "status": "published"
+    "status": "published",
+    "slug": "212-音秘"
   },
   {
     "title": "魔音工坊",
@@ -1701,7 +1913,8 @@
     "href": "https://www.moyin.com",
     "img": "images/213-魔音工坊.png",
     "category": "AI音频",
-    "status": "published"
+    "status": "published",
+    "slug": "213-魔音工坊"
   },
   {
     "title": "讯飞智作",
@@ -1709,7 +1922,8 @@
     "href": "https://peiyin.xunfei.cn",
     "img": "images/214-讯飞智作.png",
     "category": "AI音频",
-    "status": "published"
+    "status": "published",
+    "slug": "214-讯飞智作"
   },
   {
     "title": "听脑AI",
@@ -1717,7 +1931,8 @@
     "href": "https://itingnao.com",
     "img": "images/215-听脑ai.png",
     "category": "AI音频",
-    "status": "published"
+    "status": "published",
+    "slug": "215-听脑ai"
   },
   {
     "title": "Suno",
@@ -1725,7 +1940,8 @@
     "href": "https://suno.com/home",
     "img": "images/216-suno.png",
     "category": "AI音频",
-    "status": "published"
+    "status": "published",
+    "slug": "216-suno"
   },
   {
     "title": "海绵音乐",
@@ -1733,7 +1949,8 @@
     "href": "https://www.haimian.com",
     "img": "images/217-海绵音乐.png",
     "category": "AI音频",
-    "status": "published"
+    "status": "published",
+    "slug": "217-海绵音乐"
   },
   {
     "title": "音疯",
@@ -1741,7 +1958,8 @@
     "href": "https://www.mureka.cn",
     "img": "images/218-音疯.png",
     "category": "AI音频",
-    "status": "published"
+    "status": "published",
+    "slug": "218-音疯"
   },
   {
     "title": "ElevenLabs",
@@ -1749,7 +1967,8 @@
     "href": "https://elevenlabs.io",
     "img": "images/219-elevenlabs.png",
     "category": "AI音频",
-    "status": "published"
+    "status": "published",
+    "slug": "219-elevenlabs"
   },
   {
     "title": "琅琅配音",
@@ -1757,7 +1976,8 @@
     "href": "https://lang123.top",
     "img": "images/220-琅琅配音.png",
     "category": "AI音频",
-    "status": "published"
+    "status": "published",
+    "slug": "220-琅琅配音"
   },
   {
     "title": "千音漫语",
@@ -1765,7 +1985,8 @@
     "href": "https://ai.codefather.cn/tool/all/AI%E9%9F%B3%E9%A2%91%E9%9F%B3%E4%B9%90",
     "img": "images/221-千音漫语.png",
     "category": "AI音频",
-    "status": "unpublished"
+    "status": "unpublished",
+    "slug": "221-千音漫语"
   },
   {
     "title": "Noiz AI",
@@ -1773,7 +1994,8 @@
     "href": "https://noiz.ai/landing",
     "img": "images/222-noiz-ai.png",
     "category": "AI音频",
-    "status": "published"
+    "status": "published",
+    "slug": "222-noiz-ai"
   },
   {
     "title": "MiniMax Audio",
@@ -1781,7 +2003,8 @@
     "href": "https://www.minimax.cn/audio",
     "img": "images/223-minimax-audio.png",
     "category": "AI音频",
-    "status": "published"
+    "status": "published",
+    "slug": "223-minimax-audio"
   },
   {
     "title": "Mureka",
@@ -1789,7 +2012,8 @@
     "href": "https://www.mureka.ai",
     "img": "images/224-mureka.png",
     "category": "AI音频",
-    "status": "published"
+    "status": "published",
+    "slug": "224-mureka"
   },
   {
     "title": "NotebookLM",
@@ -1797,7 +2021,8 @@
     "href": "https://notebooklm.google",
     "img": "images/225-notebooklm.png",
     "category": "AI音频",
-    "status": "published"
+    "status": "published",
+    "slug": "225-notebooklm"
   },
   {
     "title": "天谱乐",
@@ -1805,7 +2030,8 @@
     "href": "https://apps.apple.com/cn/app/%E5%A4%A9%E8%B0%B1%E4%B9%90melod/id6742774895",
     "img": "images/226-天谱乐.png",
     "category": "AI音频",
-    "status": "published"
+    "status": "published",
+    "slug": "226-天谱乐"
   },
   {
     "title": "音剪",
@@ -1813,7 +2039,8 @@
     "href": "https://audioeditor.ximalaya.com",
     "img": "images/227-音剪.png",
     "category": "AI音频",
-    "status": "published"
+    "status": "published",
+    "slug": "227-音剪"
   },
   {
     "title": "简单听记",
@@ -1821,7 +2048,8 @@
     "href": "https://tingji.baidu.com/embed/listennote",
     "img": "images/228-简单听记.png",
     "category": "AI音频",
-    "status": "published"
+    "status": "published",
+    "slug": "228-简单听记"
   },
   {
     "title": "讯飞听见",
@@ -1829,7 +2057,8 @@
     "href": "https://www.iflyrec.com/zhuanwenzi.html",
     "img": "images/229-讯飞听见.png",
     "category": "AI音频",
-    "status": "published"
+    "status": "published",
+    "slug": "229-讯飞听见"
   },
   {
     "title": "MemoAI",
@@ -1837,7 +2066,8 @@
     "href": "https://memo.ac",
     "img": "images/230-memoai.png",
     "category": "AI音频",
-    "status": "published"
+    "status": "published",
+    "slug": "230-memoai"
   },
   {
     "title": "Reecho睿声",
@@ -1845,7 +2075,8 @@
     "href": "https://www.vocu.ai",
     "img": "images/231-reecho睿声.png",
     "category": "AI音频",
-    "status": "published"
+    "status": "published",
+    "slug": "231-reecho睿声"
   },
   {
     "title": "Udio",
@@ -1853,7 +2084,8 @@
     "href": "https://www.udio.com",
     "img": "images/232-udio.png",
     "category": "AI音频",
-    "status": "published"
+    "status": "published",
+    "slug": "232-udio"
   },
   {
     "title": "网易天音",
@@ -1861,7 +2093,8 @@
     "href": "https://tianyin.music.163.com",
     "img": "images/233-网易天音.png",
     "category": "AI音频",
-    "status": "published"
+    "status": "published",
+    "slug": "233-网易天音"
   },
   {
     "title": "TME Studio",
@@ -1869,7 +2102,8 @@
     "href": "https://y.qq.com/tme_studio/index.html",
     "img": "images/234-tme-studio.png",
     "category": "AI音频",
-    "status": "published"
+    "status": "published",
+    "slug": "234-tme-studio"
   },
   {
     "title": "Lyrics Into Song AI",
@@ -1877,7 +2111,8 @@
     "href": "https://lyricsintosong.ai/zh",
     "img": "images/235-lyrics-into-song-ai.png",
     "category": "AI音频",
-    "status": "published"
+    "status": "published",
+    "slug": "235-lyrics-into-song-ai"
   },
   {
     "title": "Stable Audio",
@@ -1885,7 +2120,8 @@
     "href": "https://stableaudio.com",
     "img": "images/236-stable-audio.png",
     "category": "AI音频",
-    "status": "published"
+    "status": "published",
+    "slug": "236-stable-audio"
   },
   {
     "title": "TextToSpeech",
@@ -1893,7 +2129,8 @@
     "href": "https://texttospeech.im/zh-CN",
     "img": "images/237-texttospeech.png",
     "category": "AI音频",
-    "status": "published"
+    "status": "published",
+    "slug": "237-texttospeech"
   },
   {
     "title": "TTSMaker",
@@ -1901,7 +2138,8 @@
     "href": "https://ttsmaker.cn",
     "img": "images/238-ttsmaker.png",
     "category": "AI音频",
-    "status": "published"
+    "status": "published",
+    "slug": "238-ttsmaker"
   },
   {
     "title": "LOVO AI",
@@ -1909,7 +2147,8 @@
     "href": "https://lovo.ai",
     "img": "images/239-lovo-ai.png",
     "category": "AI音频",
-    "status": "published"
+    "status": "published",
+    "slug": "239-lovo-ai"
   },
   {
     "title": "Uberduck",
@@ -1917,7 +2156,8 @@
     "href": "https://www.uberduck.ai",
     "img": "images/240-uberduck.png",
     "category": "AI音频",
-    "status": "published"
+    "status": "published",
+    "slug": "240-uberduck"
   },
   {
     "title": "Calicat",
@@ -1925,7 +2165,8 @@
     "href": "https://www.calicat.cn",
     "img": "images/241-calicat.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "241-calicat"
   },
   {
     "title": "美间AI",
@@ -1933,7 +2174,8 @@
     "href": "https://www.meijian.com/ai",
     "img": "images/242-美间ai.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "242-美间ai"
   },
   {
     "title": "墨刀AI",
@@ -1941,7 +2183,8 @@
     "href": "https://modao.cc/feature/ai",
     "img": "images/243-墨刀ai.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "243-墨刀ai"
   },
   {
     "title": "Pic Copilot",
@@ -1949,7 +2192,8 @@
     "href": "https://www.piccopilot.com",
     "img": "images/244-pic-copilot.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "244-pic-copilot"
   },
   {
     "title": "Recraft AI",
@@ -1957,7 +2201,8 @@
     "href": "https://www.recraft.ai",
     "img": "images/245-recraft-ai.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "245-recraft-ai"
   },
   {
     "title": "Figma AI",
@@ -1965,7 +2210,8 @@
     "href": "https://www.figma.com/ai",
     "img": "images/246-figma-ai.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "246-figma-ai"
   },
   {
     "title": "GemDesign",
@@ -1973,7 +2219,8 @@
     "href": "https://design.gemcoder.com",
     "img": "images/247-gemdesign.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "247-gemdesign"
   },
   {
     "title": "Holopix AI",
@@ -1981,7 +2228,8 @@
     "href": "https://holopix.cn",
     "img": "images/248-holopix-ai.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "248-holopix-ai"
   },
   {
     "title": "创客贴AI",
@@ -1989,7 +2237,8 @@
     "href": "https://aiart.chuangkit.com/matrix",
     "img": "images/249-创客贴ai.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "249-创客贴ai"
   },
   {
     "title": "蚂上有创意",
@@ -1997,7 +2246,8 @@
     "href": "https://idesign.alipay.com/home",
     "img": "images/250-蚂上有创意.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "250-蚂上有创意"
   },
   {
     "title": "爱设计",
@@ -2005,7 +2255,8 @@
     "href": "https://www.isheji.com",
     "img": "images/251-爱设计.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "251-爱设计"
   },
   {
     "title": "魔力工作室",
@@ -2013,7 +2264,8 @@
     "href": "https://www.canva.cn/magic",
     "img": "images/252-魔力工作室.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "252-魔力工作室"
   },
   {
     "title": "Microsoft Designer",
@@ -2021,7 +2273,8 @@
     "href": "https://designer.microsoft.com",
     "img": "images/253-microsoft-designer.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "253-microsoft-designer"
   },
   {
     "title": "Onlook",
@@ -2029,7 +2282,8 @@
     "href": "https://onlook.com",
     "img": "images/254-onlook.png",
     "category": "AI开发",
-    "status": "published"
+    "status": "published",
+    "slug": "254-onlook"
   },
   {
     "title": "燕雀光年",
@@ -2037,7 +2291,8 @@
     "href": "https://www.yanqueai.com",
     "img": "images/255-燕雀光年.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "255-燕雀光年"
   },
   {
     "title": "标小智LOGO生成器",
@@ -2045,7 +2300,8 @@
     "href": "https://www.logosc.cn",
     "img": "images/256-标小智logo生成器.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "256-标小智logo生成器"
   },
   {
     "title": "Looka",
@@ -2053,7 +2309,8 @@
     "href": "https://looka.com",
     "img": "images/257-looka.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "257-looka"
   },
   {
     "title": "智绘设计",
@@ -2061,7 +2318,8 @@
     "href": "https://taishan.qq.com/brand",
     "img": "images/258-智绘设计.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "258-智绘设计"
   },
   {
     "title": "MasterGo AI",
@@ -2069,7 +2327,8 @@
     "href": "https://mastergo.com/ai",
     "img": "images/259-mastergo-ai.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "259-mastergo-ai"
   },
   {
     "title": "居然设计家",
@@ -2077,7 +2336,8 @@
     "href": "https://www.jia.com",
     "img": "images/260-居然设计家.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "260-居然设计家"
   },
   {
     "title": "FigJam AI",
@@ -2085,7 +2345,8 @@
     "href": "https://www.figma.com/figjam/ai",
     "img": "images/261-figjam-ai.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "261-figjam-ai"
   },
   {
     "title": "鹿班",
@@ -2093,7 +2354,8 @@
     "href": "https://luban.aliyun.com",
     "img": "images/262-鹿班.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "262-鹿班"
   },
   {
     "title": "Magic Design",
@@ -2101,7 +2363,8 @@
     "href": "https://www.canva.com/magic-design",
     "img": "images/263-magic-design.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "263-magic-design"
   },
   {
     "title": "简单设计",
@@ -2109,7 +2372,8 @@
     "href": "https://jiandan.link",
     "img": "images/264-简单设计.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "264-简单设计"
   },
   {
     "title": "135 AI排版",
@@ -2117,7 +2381,8 @@
     "href": "https://www.135editor.com/ai_editor",
     "img": "images/265-135-ai排版.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "265-135-ai排版"
   },
   {
     "title": "笔格设计",
@@ -2125,7 +2390,8 @@
     "href": "https://bigesj.com",
     "img": "images/266-笔格设计.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "266-笔格设计"
   },
   {
     "title": "AI设计神器",
@@ -2133,7 +2399,8 @@
     "href": "https://www.logosc.cn/design",
     "img": "images/267-ai设计神器.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "267-ai设计神器"
   },
   {
     "title": "Logoai",
@@ -2141,7 +2408,8 @@
     "href": "https://www.logoai.com",
     "img": "images/268-logoai.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "268-logoai"
   },
   {
     "title": "豆绘AI",
@@ -2149,7 +2417,8 @@
     "href": "https://www.douhuiai.com",
     "img": "images/269-豆绘ai.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "269-豆绘ai"
   },
   {
     "title": "千图网",
@@ -2157,7 +2426,8 @@
     "href": "https://www.58pic.com",
     "img": "images/270-千图网.png",
     "category": "AI图像",
-    "status": "published"
+    "status": "published",
+    "slug": "270-千图网"
   },
   {
     "title": "ModelGate",
@@ -2165,7 +2435,8 @@
     "href": "https://www.modelgate.net/download",
     "img": "images/271-modelgate.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "271-modelgate"
   },
   {
     "title": "讯飞星火认知大模型",
@@ -2173,7 +2444,8 @@
     "href": "https://xinghuo.xfyun.cn/desk",
     "img": "images/272-讯飞星火认知大模型.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "272-讯飞星火认知大模型"
   },
   {
     "title": "通义千问",
@@ -2181,7 +2453,8 @@
     "href": "https://www.tongyi.com/qianwen",
     "img": "images/273-通义千问.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "273-通义千问"
   },
   {
     "title": "腾讯混元",
@@ -2189,7 +2462,8 @@
     "href": "https://hunyuan.tencent.com",
     "img": "images/274-腾讯混元.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "274-腾讯混元"
   },
   {
     "title": "智谱清言ChatGLM",
@@ -2197,7 +2471,8 @@
     "href": "https://chatglm.cn/main/alltoolsdetail",
     "img": "images/275-智谱清言chatglm.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "275-智谱清言chatglm"
   },
   {
     "title": "MiniMax大语言模型",
@@ -2205,7 +2480,8 @@
     "href": "https://www.minimaxi.com",
     "img": "images/276-minimax大语言模型.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "276-minimax大语言模型"
   },
   {
     "title": "火山方舟",
@@ -2213,7 +2489,8 @@
     "href": "https://www.volcengine.com/product/ark",
     "img": "images/277-火山方舟.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "277-火山方舟"
   },
   {
     "title": "思必驰 DFM-2 大模型",
@@ -2221,7 +2498,8 @@
     "href": "https://www.duiopen.com",
     "img": "images/278-思必驰-dfm-2-大模型.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "278-思必驰-dfm-2-大模型"
   },
   {
     "title": "左医医疗大语言模型",
@@ -2229,7 +2507,8 @@
     "href": "https://open.zuoshouyisheng.com",
     "img": "images/279-左医医疗大语言模型.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "279-左医医疗大语言模型"
   },
   {
     "title": "同济大学CivilGPT",
@@ -2237,7 +2516,8 @@
     "href": "https://civilgpt.tongji.edu.cn",
     "img": "images/280-同济大学civilgpt.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "280-同济大学civilgpt"
   },
   {
     "title": "慧政大模型",
@@ -2245,7 +2525,8 @@
     "href": "https://www.huilan.com/web/cp/jsdz/hzdmxpt/index.shtml",
     "img": "images/281-慧政大模型.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "281-慧政大模型"
   },
   {
     "title": "商汤商量SenseChat",
@@ -2253,7 +2534,8 @@
     "href": "https://chat.sensetime.com",
     "img": "images/282-商汤商量sensechat.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "282-商汤商量sensechat"
   },
   {
     "title": "八斗智能",
@@ -2261,7 +2543,8 @@
     "href": "https://www.chatbot.cn/increase.html",
     "img": "images/283-八斗智能.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "283-八斗智能"
   },
   {
     "title": "阶跃星辰",
@@ -2269,7 +2552,8 @@
     "href": "https://www.stepfun.com/chats/new",
     "img": "images/284-阶跃星辰.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "284-阶跃星辰"
   },
   {
     "title": "原子回声AtomGPT大模型",
@@ -2277,7 +2561,8 @@
     "href": "https://grow.atomecho.cn",
     "img": "images/285-原子回声atomgpt大模型.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "285-原子回声atomgpt大模型"
   },
   {
     "title": "博看大模型",
@@ -2285,7 +2570,8 @@
     "href": "https://llm-pc.bookan.com.cn",
     "img": "images/286-博看大模型.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "286-博看大模型"
   },
   {
     "title": "语鲸大模型",
@@ -2293,7 +2579,8 @@
     "href": "https://lingowhale.com",
     "img": "images/287-语鲸大模型.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "287-语鲸大模型"
   },
   {
     "title": "文心大模型",
@@ -2301,7 +2588,8 @@
     "href": "https://wenxin.baidu.com",
     "img": "images/288-文心大模型.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "288-文心大模型"
   },
   {
     "title": "蓝心大模型BlueLM",
@@ -2309,7 +2597,8 @@
     "href": "https://developers.vivo.com/product/ai/bluelm",
     "img": "images/289-蓝心大模型bluelm.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "289-蓝心大模型bluelm"
   },
   {
     "title": "DeepSeek",
@@ -2317,7 +2606,8 @@
     "href": "https://www.deepseek.com",
     "img": "images/290-deepseek.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "290-deepseek"
   },
   {
     "title": "盘古大模型",
@@ -2325,7 +2615,8 @@
     "href": "https://www.huaweicloud.com/product/pangu.html",
     "img": "images/291-盘古大模型.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "291-盘古大模型"
   },
   {
     "title": "元象大模型XChat",
@@ -2333,7 +2624,8 @@
     "href": "https://chat.xverse.cn/home/index.html",
     "img": "images/292-元象大模型xchat.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "292-元象大模型xchat"
   },
   {
     "title": "封神榜-IDEA研究院",
@@ -2341,7 +2633,8 @@
     "href": "https://fengshenbang-lm.com",
     "img": "images/293-封神榜-idea研究院.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "293-封神榜-idea研究院"
   },
   {
     "title": "KwaiYii快意大模型",
@@ -2349,7 +2642,8 @@
     "href": "https://github.com/kwai/KwaiYii",
     "img": "images/294-kwaiyii快意大模型.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "294-kwaiyii快意大模型"
   },
   {
     "title": "天工超能AI",
@@ -2357,7 +2651,8 @@
     "href": "https://www.tiangong.cn",
     "img": "images/295-天工超能ai.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "295-天工超能ai"
   },
   {
     "title": "TechGPT-东北大学",
@@ -2365,7 +2660,8 @@
     "href": "https://github.com/neukg/TechGPT",
     "img": "images/296-techgpt-东北大学.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "296-techgpt-东北大学"
   },
   {
     "title": "轩辕大模型",
@@ -2373,7 +2669,8 @@
     "href": "https://huggingface.co/xyz-nlp/XuanYuan2.0",
     "img": "images/297-轩辕大模型.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "297-轩辕大模型"
   },
   {
     "title": "TigerBot",
@@ -2381,7 +2678,8 @@
     "href": "https://github.com/TigerResearch/TigerBot",
     "img": "images/298-tigerbot.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "298-tigerbot"
   },
   {
     "title": "OpenBMB",
@@ -2389,7 +2687,8 @@
     "href": "https://huggingface.co/openbmb",
     "img": "images/299-openbmb.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "299-openbmb"
   },
   {
     "title": "悟道·天鹰（Aquila）",
@@ -2397,7 +2696,8 @@
     "href": "https://github.com/FlagAI-Open/FlagAI/tree/master/examples/Aquila",
     "img": "images/300-悟道-天鹰-aquila.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "300-悟道-天鹰-aquila"
   },
   {
     "title": "AI大学堂",
@@ -2405,7 +2705,8 @@
     "href": "https://www.aidaxue.com",
     "img": "images/301-ai大学堂.png",
     "category": "AI学习",
-    "status": "published"
+    "status": "published",
+    "slug": "301-ai大学堂"
   },
   {
     "title": "堆友AI学习",
@@ -2413,7 +2714,8 @@
     "href": "https://d.design/study",
     "img": "images/302-堆友ai学习.png",
     "category": "AI学习",
-    "status": "published"
+    "status": "published",
+    "slug": "302-堆友ai学习"
   },
   {
     "title": "AI分享圈",
@@ -2421,7 +2723,8 @@
     "href": "https://aisharenet.com",
     "img": "images/303-ai分享圈.png",
     "category": "AI学习",
-    "status": "published"
+    "status": "published",
+    "slug": "303-ai分享圈"
   },
   {
     "title": "OpenAI Academy",
@@ -2429,7 +2732,8 @@
     "href": "https://academy.openai.com",
     "img": "images/304-openai-academy.png",
     "category": "AI学习",
-    "status": "published"
+    "status": "published",
+    "slug": "304-openai-academy"
   },
   {
     "title": "Day of AI",
@@ -2437,7 +2741,8 @@
     "href": "https://dayofai.org",
     "img": "images/305-day-of-ai.png",
     "category": "AI学习",
-    "status": "published"
+    "status": "published",
+    "slug": "305-day-of-ai"
   },
   {
     "title": "fast.ai",
@@ -2445,7 +2750,8 @@
     "href": "https://www.fast.ai",
     "img": "images/306-fast-ai.png",
     "category": "AI学习",
-    "status": "published"
+    "status": "published",
+    "slug": "306-fast-ai"
   },
   {
     "title": "学吧导航",
@@ -2453,7 +2759,8 @@
     "href": "https://www.xue8nav.com",
     "img": "images/307-学吧导航.png",
     "category": "AI学习",
-    "status": "published"
+    "status": "published",
+    "slug": "307-学吧导航"
   },
   {
     "title": "Coursera",
@@ -2461,7 +2768,8 @@
     "href": "https://www.coursera.org/collections/best-machine-learning-ai",
     "img": "images/308-coursera.png",
     "category": "AI学习",
-    "status": "published"
+    "status": "published",
+    "slug": "308-coursera"
   },
   {
     "title": "Elements of AI",
@@ -2469,7 +2777,8 @@
     "href": "https://www.elementsofai.com",
     "img": "images/309-elements-of-ai.png",
     "category": "AI学习",
-    "status": "published"
+    "status": "published",
+    "slug": "309-elements-of-ai"
   },
   {
     "title": "DeepLearning.AI",
@@ -2477,7 +2786,8 @@
     "href": "https://www.deeplearning.ai",
     "img": "images/310-deeplearning-ai.png",
     "category": "AI学习",
-    "status": "published"
+    "status": "published",
+    "slug": "310-deeplearning-ai"
   },
   {
     "title": "动手学深度学习",
@@ -2485,7 +2795,8 @@
     "href": "https://zh.d2l.ai",
     "img": "images/311-动手学深度学习.png",
     "category": "AI学习",
-    "status": "published"
+    "status": "published",
+    "slug": "311-动手学深度学习"
   },
   {
     "title": "MachineLearningMastery",
@@ -2493,7 +2804,8 @@
     "href": "https://machinelearningmastery.com",
     "img": "images/312-machinelearningmastery.png",
     "category": "AI学习",
-    "status": "published"
+    "status": "published",
+    "slug": "312-machinelearningmastery"
   },
   {
     "title": "Generative AI for Beginners",
@@ -2501,7 +2813,8 @@
     "href": "https://microsoft.github.io/generative-ai-for-beginners",
     "img": "images/313-generative-ai-for-beginners.png",
     "category": "AI学习",
-    "status": "published"
+    "status": "published",
+    "slug": "313-generative-ai-for-beginners"
   },
   {
     "title": "ML for Beginners",
@@ -2509,7 +2822,8 @@
     "href": "https://microsoft.github.io/ML-For-Beginners",
     "img": "images/314-ml-for-beginners.png",
     "category": "AI学习",
-    "status": "published"
+    "status": "published",
+    "slug": "314-ml-for-beginners"
   },
   {
     "title": "Kaggle",
@@ -2517,7 +2831,8 @@
     "href": "https://www.kaggle.com",
     "img": "images/315-kaggle.png",
     "category": "AI学习",
-    "status": "published"
+    "status": "published",
+    "slug": "315-kaggle"
   },
   {
     "title": "神经网络入门",
@@ -2525,7 +2840,8 @@
     "href": "https://brilliant.org/courses/intro-neural-networks",
     "img": "images/316-神经网络入门.png",
     "category": "AI学习",
-    "status": "published"
+    "status": "published",
+    "slug": "316-神经网络入门"
   },
   {
     "title": "Trancy",
@@ -2533,7 +2849,8 @@
     "href": "https://www.trancy.org/zh-cn",
     "img": "images/317-trancy.png",
     "category": "AI学习",
-    "status": "published"
+    "status": "published",
+    "slug": "317-trancy"
   },
   {
     "title": "Reading Coach",
@@ -2541,7 +2858,8 @@
     "href": "https://coach.microsoft.com/zh-cn",
     "img": "images/318-reading-coach.png",
     "category": "AI学习",
-    "status": "published"
+    "status": "published",
+    "slug": "318-reading-coach"
   },
   {
     "title": "飞桨AI Studio",
@@ -2549,7 +2867,8 @@
     "href": "https://aistudio.baidu.com/index",
     "img": "images/319-飞桨ai-studio.png",
     "category": "AI学习",
-    "status": "published"
+    "status": "published",
+    "slug": "319-飞桨ai-studio"
   },
   {
     "title": "腾讯扣叮",
@@ -2557,7 +2876,8 @@
     "href": "https://coding.qq.com",
     "img": "images/320-腾讯扣叮.png",
     "category": "AI学习",
-    "status": "published"
+    "status": "published",
+    "slug": "320-腾讯扣叮"
   },
   {
     "title": "阿里云AI学习路线",
@@ -2565,7 +2885,8 @@
     "href": "https://developer.aliyun.com/learning/roadmap/ai",
     "img": "images/321-阿里云ai学习路线.png",
     "category": "AI学习",
-    "status": "published"
+    "status": "published",
+    "slug": "321-阿里云ai学习路线"
   },
   {
     "title": "Udacity AI学院",
@@ -2573,7 +2894,8 @@
     "href": "https://www.udacity.com/school/artificial-intelligence",
     "img": "images/322-udacity-ai学院.png",
     "category": "AI学习",
-    "status": "published"
+    "status": "published",
+    "slug": "322-udacity-ai学院"
   },
   {
     "title": "Google AI",
@@ -2581,7 +2903,8 @@
     "href": "https://ai.google",
     "img": "images/323-google-ai.png",
     "category": "AI学习",
-    "status": "published"
+    "status": "published",
+    "slug": "323-google-ai"
   },
   {
     "title": "ShowMeAI知识社区",
@@ -2589,7 +2912,8 @@
     "href": "https://www.showmeai.tech",
     "img": "images/324-showmeai知识社区.png",
     "category": "AI学习",
-    "status": "published"
+    "status": "published",
+    "slug": "324-showmeai知识社区"
   },
   {
     "title": "txyz",
@@ -2597,7 +2921,8 @@
     "href": "https://www.txyz.ai",
     "img": "images/325-txyz.png",
     "category": "AI学习",
-    "status": "published"
+    "status": "published",
+    "slug": "325-txyz"
   },
   {
     "title": "WisPaper",
@@ -2605,7 +2930,8 @@
     "href": "https://www.wispaper.ai",
     "img": "images/326-wispaper.png",
     "category": "AI搜索",
-    "status": "published"
+    "status": "published",
+    "slug": "326-wispaper"
   },
   {
     "title": "纳米AI",
@@ -2613,7 +2939,8 @@
     "href": "https://www.n.cn",
     "img": "images/327-纳米ai.png",
     "category": "AI搜索",
-    "status": "published"
+    "status": "published",
+    "slug": "327-纳米ai"
   },
   {
     "title": "Deepsearch APP",
@@ -2621,7 +2948,8 @@
     "href": "https://ai.codefather.cn/tool/all/AI%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E",
     "img": "images/328-deepsearch-app.png",
     "category": "AI搜索",
-    "status": "unpublished"
+    "status": "unpublished",
+    "slug": "328-deepsearch-app"
   },
   {
     "title": "问小白",
@@ -2629,7 +2957,8 @@
     "href": "https://www.wenxiaobai.com",
     "img": "images/329-问小白.png",
     "category": "AI搜索",
-    "status": "published"
+    "status": "published",
+    "slug": "329-问小白"
   },
   {
     "title": "夸克AI",
@@ -2637,7 +2966,8 @@
     "href": "https://b.quark.cn/apps/qkhomepage_twofoufeb/routes/model",
     "img": "images/330-夸克ai.png",
     "category": "AI搜索",
-    "status": "published"
+    "status": "published",
+    "slug": "330-夸克ai"
   },
   {
     "title": "Perplexity",
@@ -2645,7 +2975,8 @@
     "href": "https://www.perplexity.ai",
     "img": "images/331-perplexity.png",
     "category": "AI搜索",
-    "status": "published"
+    "status": "published",
+    "slug": "331-perplexity"
   },
   {
     "title": "SearchGPT",
@@ -2653,7 +2984,8 @@
     "href": "https://searchgpt.me",
     "img": "images/332-searchgpt.png",
     "category": "AI搜索",
-    "status": "published"
+    "status": "published",
+    "slug": "332-searchgpt"
   },
   {
     "title": "Devv",
@@ -2661,7 +2993,8 @@
     "href": "https://devv.ai/zh",
     "img": "images/333-devv.png",
     "category": "AI搜索",
-    "status": "published"
+    "status": "published",
+    "slug": "333-devv"
   },
   {
     "title": "AMiner",
@@ -2669,7 +3002,8 @@
     "href": "https://www.aminer.cn/open/research",
     "img": "images/334-aminer.png",
     "category": "AI搜索",
-    "status": "published"
+    "status": "published",
+    "slug": "334-aminer"
   },
   {
     "title": "心流",
@@ -2677,7 +3011,8 @@
     "href": "https://iflow.cn",
     "img": "images/335-心流.png",
     "category": "AI搜索",
-    "status": "published"
+    "status": "published",
+    "slug": "335-心流"
   },
   {
     "title": "玻尔",
@@ -2685,7 +3020,8 @@
     "href": "https://www.bohrium.com",
     "img": "images/336-玻尔.png",
     "category": "AI搜索",
-    "status": "published"
+    "status": "published",
+    "slug": "336-玻尔"
   },
   {
     "title": "点点",
@@ -2693,7 +3029,8 @@
     "href": "https://www.xiaohongshu.com",
     "img": "images/337-点点.png",
     "category": "AI搜索",
-    "status": "published"
+    "status": "published",
+    "slug": "337-点点"
   },
   {
     "title": "知乎直答",
@@ -2701,7 +3038,8 @@
     "href": "https://zhida.zhihu.com",
     "img": "images/338-知乎直答.png",
     "category": "AI搜索",
-    "status": "published"
+    "status": "published",
+    "slug": "338-知乎直答"
   },
   {
     "title": "纳米搜索",
@@ -2709,7 +3047,8 @@
     "href": "https://www.n.cn",
     "img": "images/339-纳米搜索.png",
     "category": "AI搜索",
-    "status": "published"
+    "status": "published",
+    "slug": "339-纳米搜索"
   },
   {
     "title": "百度AI探索版",
@@ -2717,7 +3056,8 @@
     "href": "https://chat.baidu.com/search",
     "img": "images/340-百度ai探索版.png",
     "category": "AI搜索",
-    "status": "published"
+    "status": "published",
+    "slug": "340-百度ai探索版"
   },
   {
     "title": "Felo",
@@ -2725,7 +3065,8 @@
     "href": "https://felo.ai/search",
     "img": "images/341-felo.png",
     "category": "AI搜索",
-    "status": "published"
+    "status": "published",
+    "slug": "341-felo"
   },
   {
     "title": "360AI搜索",
@@ -2733,7 +3074,8 @@
     "href": "https://ai.360.com",
     "img": "images/342-360ai搜索.png",
     "category": "AI搜索",
-    "status": "published"
+    "status": "published",
+    "slug": "342-360ai搜索"
   },
   {
     "title": "天工AI搜索",
@@ -2741,7 +3083,8 @@
     "href": "https://www.tiangong.cn",
     "img": "images/343-天工ai搜索.png",
     "category": "AI搜索",
-    "status": "published"
+    "status": "published",
+    "slug": "343-天工ai搜索"
   },
   {
     "title": "Exa AI",
@@ -2749,7 +3092,8 @@
     "href": "https://exa.ai",
     "img": "images/344-exa-ai.png",
     "category": "AI搜索",
-    "status": "published"
+    "status": "published",
+    "slug": "344-exa-ai"
   },
   {
     "title": "Reddo",
@@ -2757,7 +3101,8 @@
     "href": "https://www.reddo.cloud/search_home",
     "img": "images/345-reddo.png",
     "category": "AI搜索",
-    "status": "published"
+    "status": "published",
+    "slug": "345-reddo"
   },
   {
     "title": "博查AI搜索",
@@ -2765,7 +3110,8 @@
     "href": "https://bochaai.com",
     "img": "images/346-博查ai搜索.png",
     "category": "AI搜索",
-    "status": "published"
+    "status": "published",
+    "slug": "346-博查ai搜索"
   },
   {
     "title": "博简智慧专利",
@@ -2773,7 +3119,8 @@
     "href": "https://pagentia.com",
     "img": "images/347-博简智慧专利.png",
     "category": "AI搜索",
-    "status": "published"
+    "status": "published",
+    "slug": "347-博简智慧专利"
   },
   {
     "title": "链企AI",
@@ -2781,7 +3128,8 @@
     "href": "https://www.lianqiai.cn",
     "img": "images/348-链企ai.png",
     "category": "AI搜索",
-    "status": "published"
+    "status": "published",
+    "slug": "348-链企ai"
   },
   {
     "title": "问问小宇宙",
@@ -2789,7 +3137,8 @@
     "href": "https://ask.xiaoyuzhoufm.com",
     "img": "images/349-问问小宇宙.png",
     "category": "AI搜索",
-    "status": "published"
+    "status": "published",
+    "slug": "349-问问小宇宙"
   },
   {
     "title": "Dexa AI",
@@ -2797,7 +3146,8 @@
     "href": "https://dexa.ai",
     "img": "images/350-dexa-ai.png",
     "category": "AI搜索",
-    "status": "published"
+    "status": "published",
+    "slug": "350-dexa-ai"
   },
   {
     "title": "CuspAI",
@@ -2805,7 +3155,8 @@
     "href": "https://www.cusp.ai",
     "img": "images/351-cuspai.png",
     "category": "AI搜索",
-    "status": "published"
+    "status": "published",
+    "slug": "351-cuspai"
   },
   {
     "title": "XAnswer",
@@ -2813,7 +3164,8 @@
     "href": "https://www.xanswer.com",
     "img": "images/352-xanswer.png",
     "category": "AI搜索",
-    "status": "published"
+    "status": "published",
+    "slug": "352-xanswer"
   },
   {
     "title": "Glean",
@@ -2821,7 +3173,8 @@
     "href": "https://www.glean.com",
     "img": "images/353-glean.png",
     "category": "AI搜索",
-    "status": "published"
+    "status": "published",
+    "slug": "353-glean"
   },
   {
     "title": "AlphaSense",
@@ -2829,7 +3182,8 @@
     "href": "https://www.alpha-sense.com",
     "img": "images/354-alphasense.png",
     "category": "AI搜索",
-    "status": "published"
+    "status": "published",
+    "slug": "354-alphasense"
   },
   {
     "title": "Globe Explorer",
@@ -2837,7 +3191,8 @@
     "href": "https://explorer.globe.engineer",
     "img": "images/355-globe-explorer.png",
     "category": "AI搜索",
-    "status": "published"
+    "status": "published",
+    "slug": "355-globe-explorer"
   },
   {
     "title": "朱雀AI检测",
@@ -2845,7 +3200,8 @@
     "href": "https://matrix.tencent.com/ai-detect/",
     "img": "images/356-朱雀ai检测.png",
     "category": "AI内容",
-    "status": "published"
+    "status": "published",
+    "slug": "356-朱雀ai检测"
   },
   {
     "title": "GPTZero",
@@ -2853,7 +3209,8 @@
     "href": "https://gptzero.me",
     "img": "images/357-gptzero.png",
     "category": "AI内容",
-    "status": "published"
+    "status": "published",
+    "slug": "357-gptzero"
   },
   {
     "title": "StudyCorgi ChatGPT Detector",
@@ -2861,7 +3218,8 @@
     "href": "https://studycorgi.com/free-writing-tools/chat-gpt-detector",
     "img": "images/358-studycorgi-chatgpt-detector.png",
     "category": "AI内容",
-    "status": "published"
+    "status": "published",
+    "slug": "358-studycorgi-chatgpt-detector"
   },
   {
     "title": "AISEO AI Content Detector",
@@ -2869,7 +3227,8 @@
     "href": "https://aiseo.ai/tools/ai-detector",
     "img": "images/359-aiseo-ai-content-detector.png",
     "category": "AI内容",
-    "status": "published"
+    "status": "published",
+    "slug": "359-aiseo-ai-content-detector"
   },
   {
     "title": "Proofig",
@@ -2877,7 +3236,8 @@
     "href": "https://www.proofig.com",
     "img": "images/360-proofig.png",
     "category": "AI内容",
-    "status": "published"
+    "status": "published",
+    "slug": "360-proofig"
   },
   {
     "title": "Writecream AI Content Detector",
@@ -2885,7 +3245,8 @@
     "href": "https://www.writecream.com/ai-content-detector",
     "img": "images/361-writecream-ai-content-detector.png",
     "category": "AI内容",
-    "status": "published"
+    "status": "published",
+    "slug": "361-writecream-ai-content-detector"
   },
   {
     "title": "Smodin AI Content Detector",
@@ -2893,7 +3254,8 @@
     "href": "https://smodin.io/ai-content-detector",
     "img": "images/362-smodin-ai-content-detector.png",
     "category": "AI内容",
-    "status": "published"
+    "status": "published",
+    "slug": "362-smodin-ai-content-detector"
   },
   {
     "title": "Sapling AI Content Detector",
@@ -2901,7 +3263,8 @@
     "href": "https://sapling.ai/ai-content-detector",
     "img": "images/363-sapling-ai-content-detector.png",
     "category": "AI内容",
-    "status": "published"
+    "status": "published",
+    "slug": "363-sapling-ai-content-detector"
   },
   {
     "title": "挖错网",
@@ -2909,7 +3272,8 @@
     "href": "https://wacuowang.com",
     "img": "images/364-挖错网.png",
     "category": "AI内容",
-    "status": "published"
+    "status": "published",
+    "slug": "364-挖错网"
   },
   {
     "title": "团象",
@@ -2917,7 +3281,8 @@
     "href": "https://xueshu.tuanxiang.com",
     "img": "images/365-团象.png",
     "category": "AI内容",
-    "status": "published"
+    "status": "published",
+    "slug": "365-团象"
   },
   {
     "title": "AI Content Detector",
@@ -2925,7 +3290,8 @@
     "href": "https://writer.com/ai-content-detector",
     "img": "images/366-ai-content-detector.png",
     "category": "AI内容",
-    "status": "published"
+    "status": "published",
+    "slug": "366-ai-content-detector"
   },
   {
     "title": "Originality.AI",
@@ -2933,7 +3299,8 @@
     "href": "https://originality.ai",
     "img": "images/367-originality-ai.png",
     "category": "AI内容",
-    "status": "published"
+    "status": "published",
+    "slug": "367-originality-ai"
   },
   {
     "title": "CopyLeaks",
@@ -2941,7 +3308,8 @@
     "href": "https://copyleaks.com",
     "img": "images/368-copyleaks.png",
     "category": "AI内容",
-    "status": "published"
+    "status": "published",
+    "slug": "368-copyleaks"
   },
   {
     "title": "Winston AI",
@@ -2949,7 +3317,8 @@
     "href": "https://gowinston.ai",
     "img": "images/369-winston-ai.png",
     "category": "AI内容",
-    "status": "published"
+    "status": "published",
+    "slug": "369-winston-ai"
   },
   {
     "title": "CheckforAi",
@@ -2957,7 +3326,8 @@
     "href": "https://checkforai.com",
     "img": "images/370-checkforai.png",
     "category": "AI内容",
-    "status": "published"
+    "status": "published",
+    "slug": "370-checkforai"
   },
   {
     "title": "白日梦Online APP",
@@ -2965,7 +3335,8 @@
     "href": "https://ai.codefather.cn/tool/all/AI%E8%81%8A%E5%A4%A9%E6%9C%BA%E5%99%A8%E4%BA%BA",
     "img": "images/371-白日梦online-app.png",
     "category": "AI聊天",
-    "status": "unpublished"
+    "status": "unpublished",
+    "slug": "371-白日梦online-app"
   },
   {
     "title": "论论APP",
@@ -2973,7 +3344,8 @@
     "href": "https://apps.apple.com/cn/app/%E8%AE%BA%E8%AE%BA%E5%85%A8%E7%90%83/id1579259245",
     "img": "images/372-论论app.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "372-论论app"
   },
   {
     "title": "MoFlow APP",
@@ -2981,7 +3353,8 @@
     "href": "https://moflowapp.com",
     "img": "images/373-moflow-app.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "373-moflow-app"
   },
   {
     "title": "问玥APP",
@@ -2989,7 +3362,8 @@
     "href": "https://apps.apple.com/cn/app/id6740871623",
     "img": "images/374-问玥app.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "374-问玥app"
   },
   {
     "title": "万象有灵APP",
@@ -2997,7 +3371,8 @@
     "href": "https://apps.apple.com/cn/app/id6743929899",
     "img": "images/375-万象有灵app.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "375-万象有灵app"
   },
   {
     "title": "张大妈APP",
@@ -3005,7 +3380,8 @@
     "href": "https://www.smzdm.com",
     "img": "images/376-张大妈app.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "376-张大妈app"
   },
   {
     "title": "Gooh旅记APP",
@@ -3013,7 +3389,8 @@
     "href": "https://apps.apple.com/cn/app/id6479474700",
     "img": "images/377-gooh旅记app.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "377-gooh旅记app"
   },
   {
     "title": "他她它APP",
@@ -3021,7 +3398,8 @@
     "href": "https://ai.codefather.cn/tool/all/AI%E8%81%8A%E5%A4%A9%E6%9C%BA%E5%99%A8%E4%BA%BA",
     "img": "images/378-他她它app.png",
     "category": "AI聊天",
-    "status": "unpublished"
+    "status": "unpublished",
+    "slug": "378-他她它app"
   },
   {
     "title": "Acho APP",
@@ -3029,7 +3407,8 @@
     "href": "https://ai.codefather.cn/tool/all/AI%E8%81%8A%E5%A4%A9%E6%9C%BA%E5%99%A8%E4%BA%BA",
     "img": "images/379-acho-app.png",
     "category": "AI聊天",
-    "status": "unpublished"
+    "status": "unpublished",
+    "slug": "379-acho-app"
   },
   {
     "title": "指北旅行APP",
@@ -3037,7 +3416,8 @@
     "href": "https://apps.apple.com/cn/app/id6738374225",
     "img": "images/380-指北旅行app.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "380-指北旅行app"
   },
   {
     "title": "Planori APP",
@@ -3045,7 +3425,8 @@
     "href": "https://apps.apple.com/cn/app/planori/id6746323926",
     "img": "images/381-planori-app.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "381-planori-app"
   },
   {
     "title": "ChatGPT APP",
@@ -3053,7 +3434,8 @@
     "href": "https://chatgpt.com",
     "img": "images/382-chatgpt-app.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "382-chatgpt-app"
   },
   {
     "title": "DeepSeek APP",
@@ -3061,7 +3443,8 @@
     "href": "https://www.deepseek.com",
     "img": "images/383-deepseek-app.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "383-deepseek-app"
   },
   {
     "title": "豆包APP",
@@ -3069,7 +3452,8 @@
     "href": "https://www.doubao.com",
     "img": "images/384-豆包app.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "384-豆包app"
   },
   {
     "title": "Kimi智能助手APP",
@@ -3077,7 +3461,8 @@
     "href": "https://www.kimi.com",
     "img": "images/385-kimi智能助手app.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "385-kimi智能助手app"
   },
   {
     "title": "智谱清言APP",
@@ -3085,7 +3470,8 @@
     "href": "https://chatglm.cn",
     "img": "images/386-智谱清言app.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "386-智谱清言app"
   },
   {
     "title": "问小白APP",
@@ -3093,7 +3479,8 @@
     "href": "https://www.wenxiaobai.com",
     "img": "images/387-问小白app.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "387-问小白app"
   },
   {
     "title": "文小言APP",
@@ -3101,7 +3488,8 @@
     "href": "https://yiyan.baidu.com",
     "img": "images/388-文小言app.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "388-文小言app"
   },
   {
     "title": "通义APP",
@@ -3109,7 +3497,8 @@
     "href": "https://www.tongyi.com",
     "img": "images/389-通义app.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "389-通义app"
   },
   {
     "title": "天工AI",
@@ -3117,7 +3506,8 @@
     "href": "https://www.tiangong.cn",
     "img": "images/390-天工ai.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "390-天工ai"
   },
   {
     "title": "腾讯元宝APP",
@@ -3125,7 +3515,8 @@
     "href": "https://yuanbao.tencent.com",
     "img": "images/391-腾讯元宝app.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "391-腾讯元宝app"
   },
   {
     "title": "猫箱APP（原话炉）",
@@ -3133,7 +3524,8 @@
     "href": "https://apps.apple.com/cn/app/id6475000292",
     "img": "images/392-猫箱app-原话炉.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "392-猫箱app-原话炉"
   },
   {
     "title": "讯飞星火APP",
@@ -3141,7 +3533,8 @@
     "href": "https://xinghuo.xfyun.cn",
     "img": "images/393-讯飞星火app.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "393-讯飞星火app"
   },
   {
     "title": "Wow APP",
@@ -3149,7 +3542,8 @@
     "href": "https://ai.codefather.cn/tool/all/AI%E8%81%8A%E5%A4%A9%E6%9C%BA%E5%99%A8%E4%BA%BA",
     "img": "images/394-wow-app.png",
     "category": "AI聊天",
-    "status": "unpublished"
+    "status": "unpublished",
+    "slug": "394-wow-app"
   },
   {
     "title": "Microsoft Copilot APP",
@@ -3157,7 +3551,8 @@
     "href": "https://copilot.microsoft.com",
     "img": "images/395-microsoft-copilot-app.png",
     "category": "AI开发",
-    "status": "published"
+    "status": "published",
+    "slug": "395-microsoft-copilot-app"
   },
   {
     "title": "紫东太初APP",
@@ -3165,7 +3560,8 @@
     "href": "https://www.zidongtaichu.com/",
     "img": "images/396-紫东太初app.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "396-紫东太初app"
   },
   {
     "title": "星野APP",
@@ -3173,7 +3569,8 @@
     "href": "https://www.xingyeai.com",
     "img": "images/397-星野app.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "397-星野app"
   },
   {
     "title": "Character AI APP",
@@ -3181,7 +3578,8 @@
     "href": "https://character.ai",
     "img": "images/398-character-ai-app.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "398-character-ai-app"
   },
   {
     "title": "Claude APP",
@@ -3189,7 +3587,8 @@
     "href": "https://claude.ai",
     "img": "images/399-claude-app.png",
     "category": "AI聊天",
-    "status": "published"
+    "status": "published",
+    "slug": "399-claude-app"
   },
   {
     "title": "未伴APP",
@@ -3197,6 +3596,7 @@
     "href": "https://ai.codefather.cn/tool/all/AI%E8%81%8A%E5%A4%A9%E6%9C%BA%E5%99%A8%E4%BA%BA",
     "img": "images/400-未伴app.png",
     "category": "AI聊天",
-    "status": "unpublished"
+    "status": "unpublished",
+    "slug": "400-未伴app"
   }
 ]

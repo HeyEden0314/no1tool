@@ -1,77 +1,187 @@
 // 首页专用脚本
 const categoryGrid = document.getElementById('categoryGrid');
+const featuredGrid = document.getElementById('featuredGrid');
 
 const categories = [
-  { name: '全部', icon: '🔍', desc: '浏览所有AI工具' },
-  { name: 'AI写作', icon: '✍️', desc: '文章、论文、文案生成' },
-  { name: 'AI图像', icon: '🎨', desc: '绘画、设计、图像处理' },
-  { name: 'AI视频', icon: '🎬', desc: '视频生成、编辑、处理' },
-  { name: 'AI办公', icon: '💼', desc: 'PPT、文档、办公自动化' },
-  { name: 'AI聊天', icon: '💬', desc: '对话、问答、智能助手' },
-  { name: 'AI开发', icon: '💻', desc: '编程、代码生成、开发工具' },
-  { name: 'AI音频', icon: '🎵', desc: '音乐、语音、音频处理' },
-  { name: 'AI内容', icon: '📝', desc: '内容创作、编辑、管理' },
-  { name: 'AI学习', icon: '📚', desc: '教育、培训、知识学习' },
-  { name: 'AI搜索', icon: '🔎', desc: '搜索、发现、信息检索' }
+  { name: '全部', icon: '🔍', desc: '已收录工具' },
+  { name: 'AI写作', icon: '✍️', desc: '文章、文案' },
+  { name: 'AI图像', icon: '🎨', desc: '绘画、修图' },
+  { name: 'AI视频', icon: '🎬', desc: '生成、剪辑' },
+  { name: 'AI办公', icon: '💼', desc: 'PPT、文档' },
+  { name: 'AI聊天', icon: '💬', desc: '对话、助手' },
+  { name: 'AI开发', icon: '💻', desc: '编程、代码' },
+  { name: 'AI音频', icon: '🎵', desc: '音乐、配音' },
+  { name: 'AI内容', icon: '📝', desc: '检测、编辑' },
+  { name: 'AI学习', icon: '📚', desc: '课程、教程' },
+  { name: 'AI搜索', icon: '🔎', desc: '检索、问答' }
 ];
 
-// 统计信息
-const stats = {
-  totalTools: 0,
-  totalCategories: categories.length
-};
+const FEATURED_TITLES = [
+  'ChatGPT',
+  'GitHub Copilot',
+  'Midjourney',
+  'DeepSeek',
+  'Kimi智能助手',
+  '即梦',
+  'Gamma',
+  'Perplexity'
+];
 
-// 获取工具总数
-function fetchToolCount() {
-  fetch('data.json')
-    .then(response => response.json())
-    .then(data => {
-      stats.totalTools = data.filter((item) => item.status !== 'unpublished').length;
-      updateStats();
-    })
-    .catch(() => {
-      stats.totalTools = '400+';
-      updateStats();
-    });
+function publishedTools(data) {
+  return data.filter((item) => item.status !== 'unpublished' && item.slug);
 }
 
-function updateStats() {
-  const statItems = document.querySelectorAll('.stat-item strong');
-  if (statItems.length >= 4) {
-    statItems[0].textContent = stats.totalTools + '+';
-    statItems[2].textContent = stats.totalCategories;
+function toolHref(tool) {
+  return `tools/${encodeURIComponent(tool.slug)}.html`;
+}
+
+function renderToolCard(tool, index) {
+  const card = document.createElement('article');
+  card.className = 'card';
+  card.style.animationDelay = `${index * 0.03}s`;
+
+  const main = document.createElement('a');
+  main.className = 'card-main';
+  main.href = toolHref(tool);
+
+  const top = document.createElement('div');
+  top.className = 'card-top';
+
+  const avatar = document.createElement('div');
+  avatar.className = 'card-avatar';
+  const img = document.createElement('img');
+  img.loading = 'lazy';
+  img.decoding = 'async';
+  img.src = tool.img || 'images/placeholder.svg';
+  img.alt = tool.title;
+  img.onerror = () => {
+    img.onerror = null;
+    img.src = 'images/placeholder.svg';
+  };
+  avatar.appendChild(img);
+
+  const copy = document.createElement('div');
+  const titleText = document.createElement('h3');
+  titleText.className = 'card-title';
+  titleText.textContent = tool.title;
+  const subtitle = document.createElement('p');
+  subtitle.className = 'card-subtitle';
+  subtitle.textContent = tool.subtitle;
+  copy.appendChild(titleText);
+  copy.appendChild(subtitle);
+
+  top.appendChild(avatar);
+  top.appendChild(copy);
+  main.appendChild(top);
+
+  if (tool.category) {
+    const badge = document.createElement('span');
+    badge.className = 'card-category';
+    badge.textContent = tool.category;
+    main.appendChild(badge);
   }
+
+  const actions = document.createElement('div');
+  actions.className = 'card-actions';
+
+  const detail = document.createElement('a');
+  detail.className = 'card-link';
+  detail.href = toolHref(tool);
+  detail.textContent = '查看详情';
+
+  const official = document.createElement('a');
+  official.className = 'card-link-ghost';
+  official.href = tool.href;
+  official.target = '_blank';
+  official.rel = 'noopener noreferrer';
+  official.textContent = '官网';
+
+  actions.appendChild(detail);
+  actions.appendChild(official);
+
+  card.appendChild(main);
+  card.appendChild(actions);
+  return card;
 }
 
-// 渲染分类入口
-function renderCategoryGrid() {
-  if (!categoryGrid) return;
+function pickFeatured(tools) {
+  const byTitle = new Map(tools.map((tool) => [tool.title, tool]));
+  const picked = [];
+  const used = new Set();
+  FEATURED_TITLES.forEach((title) => {
+    const tool = byTitle.get(title);
+    if (tool && !used.has(tool.slug)) {
+      picked.push(tool);
+      used.add(tool.slug);
+    }
+  });
+  const byCat = new Map();
+  tools.forEach((tool) => {
+    if (!byCat.has(tool.category)) byCat.set(tool.category, tool);
+  });
+  byCat.forEach((tool) => {
+    if (picked.length >= 8) return;
+    if (!used.has(tool.slug)) {
+      picked.push(tool);
+      used.add(tool.slug);
+    }
+  });
+  return picked.slice(0, 8);
+}
 
+function renderFeatured(tools) {
+  if (!featuredGrid) return;
+  featuredGrid.innerHTML = '';
+  pickFeatured(tools).forEach((tool, index) => {
+    featuredGrid.appendChild(renderToolCard(tool, index));
+  });
+}
+
+function renderCategoryGrid(tools) {
+  if (!categoryGrid) return;
   categoryGrid.innerHTML = '';
+  const counts = {};
+  tools.forEach((tool) => {
+    counts[tool.category] = (counts[tool.category] || 0) + 1;
+  });
 
   categories.forEach((cat, index) => {
     const link = document.createElement('a');
-    link.href = `list.html?category=${encodeURIComponent(cat.name)}`;
+    link.href =
+      cat.name === '全部'
+        ? 'list.html'
+        : `list.html?category=${encodeURIComponent(cat.name)}`;
     link.className = 'category-card';
-    link.style.animationDelay = `${index * 0.05}s`;
-
+    link.style.animationDelay = `${index * 0.04}s`;
+    const count = cat.name === '全部' ? tools.length : counts[cat.name] || 0;
     link.innerHTML = `
       <div class="category-icon">${cat.icon}</div>
       <div class="category-info">
         <h3 class="category-name">${cat.name}</h3>
         <p class="category-desc">${cat.desc}</p>
       </div>
-      <div class="category-arrow">→</div>
+      <div class="category-meta">
+        <span class="category-count">${count}</span>
+        <span class="category-arrow">→</span>
+      </div>
     `;
-
     categoryGrid.appendChild(link);
   });
 }
 
-// 初始化
 function initialize() {
-  renderCategoryGrid();
-  fetchToolCount();
+  fetch('data.json')
+    .then((response) => response.json())
+    .then((data) => {
+      const tools = publishedTools(data);
+      const countEl = document.getElementById('statToolCount');
+      if (countEl) countEl.textContent = String(tools.length);
+      renderFeatured(tools);
+      renderCategoryGrid(tools);
+    })
+    .catch(() => {
+      renderCategoryGrid([]);
+    });
 }
 
 initialize();

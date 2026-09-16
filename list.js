@@ -34,6 +34,15 @@ function getCategoryFromURL() {
   return params.get('category') || '全部';
 }
 
+function getQueryFromURL() {
+  const params = new URLSearchParams(window.location.search);
+  return params.get('q') || '';
+}
+
+function toolHref(tool) {
+  return `tools/${encodeURIComponent(tool.slug)}.html`;
+}
+
 // 更新URL参数
 function updateURL(category) {
   const url = new URL(window.location);
@@ -202,6 +211,10 @@ function renderCards() {
     card.className = 'card';
     card.style.animationDelay = `${index * 0.03}s`;
 
+    const main = document.createElement('a');
+    main.className = 'card-main';
+    main.href = toolHref(tool);
+
     const top = document.createElement('div');
     top.className = 'card-top';
 
@@ -230,16 +243,35 @@ function renderCards() {
 
     top.appendChild(avatar);
     top.appendChild(title);
+    main.appendChild(top);
 
-    const link = document.createElement('a');
-    link.className = 'card-link';
-    link.href = tool.href;
-    link.target = '_blank';
-    link.rel = 'noopener noreferrer';
-    link.textContent = '查看链接';
+    if (tool.category) {
+      const badge = document.createElement('span');
+      badge.className = 'card-category';
+      badge.textContent = tool.category;
+      main.appendChild(badge);
+    }
 
-    card.appendChild(top);
-    card.appendChild(link);
+    const actions = document.createElement('div');
+    actions.className = 'card-actions';
+
+    const detail = document.createElement('a');
+    detail.className = 'card-link';
+    detail.href = toolHref(tool);
+    detail.textContent = '查看详情';
+
+    const official = document.createElement('a');
+    official.className = 'card-link-ghost';
+    official.href = tool.href;
+    official.target = '_blank';
+    official.rel = 'noopener noreferrer';
+    official.textContent = '官网';
+
+    actions.appendChild(detail);
+    actions.appendChild(official);
+
+    card.appendChild(main);
+    card.appendChild(actions);
     cardGrid.appendChild(card);
   });
 }
@@ -263,14 +295,19 @@ function initialize() {
     .then((response) => response.json())
     .then((data) => {
       tools = data
-        .filter((item) => item.status !== 'unpublished')
+        .filter((item) => item.status !== 'unpublished' && item.slug)
         .map((item) => ({
           title: item.title,
           subtitle: item.subtitle,
           href: item.href,
           img: item.img || 'images/placeholder.svg',
           category: item.category || '',
+          slug: item.slug,
         }));
+      const initialQuery = getQueryFromURL();
+      if (initialQuery) {
+        searchInput.value = initialQuery;
+      }
       renderCategories();
       filterAndRender();
     })
