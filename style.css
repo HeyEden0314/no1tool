@@ -1,24 +1,25 @@
-/* No.1工具导航 — 柿色纸本目录
-   暖纸底、宋体标题、近直角、细线；避开苹果蓝圆角卡与紫渐变。 */
+/* No.1工具导航 — 淡蓝科技目录
+   冰面白底、钢色正文、天蓝强调；近直角、细线。避开紫渐变与苹果蓝圆角卡。 */
 
 :root {
-  --paper: #efe4d2;
-  --paper-deep: #e6d7bf;
-  --cream: #f7f1e6;
-  --cream-2: #fbf6ee;
-  --ink: #1c1610;
-  --ink-2: #5a4e43;
-  --ink-3: #8a7b6c;
-  --line: #d3c4ae;
-  --line-strong: #b9a890;
-  --persimmon: #c2471a;
-  --persimmon-deep: #9a3412;
-  --persimmon-soft: rgba(194, 71, 26, 0.12);
-  --pine: #2c5a4a;
-  --pine-soft: rgba(44, 90, 74, 0.12);
-  --brass: #a67c3d;
-  --shadow: 0 10px 28px rgba(28, 22, 16, 0.08);
-  --shadow-print: 6px 6px 0 rgba(28, 22, 16, 0.08);
+  --paper: #eef4f9;
+  --paper-deep: #e2ecf4;
+  --cream: #f7fbfe;
+  --cream-2: #ffffff;
+  --ink: #1a2a3a;
+  --ink-2: #4a6278;
+  --ink-3: #7a91a6;
+  --line: #c9dce8;
+  --line-strong: #adc6d8;
+  --persimmon: #3d9ad6;
+  --persimmon-deep: #2478b3;
+  --persimmon-soft: rgba(61, 154, 214, 0.14);
+  --pine: #2f7aa8;
+  --pine-soft: rgba(47, 122, 168, 0.12);
+  --brass: #5aa0c8;
+  --cta: #d4ebf7;
+  --shadow: 0 10px 28px rgba(26, 42, 58, 0.07);
+  --shadow-print: 6px 6px 0 rgba(61, 154, 214, 0.18);
   --radius: 3px;
   --serif: "Noto Serif SC", "Songti SC", "STSong", "SimSun", serif;
   --sans: "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", sans-serif;
@@ -49,8 +50,8 @@ body {
   color: var(--ink);
   background-color: var(--paper);
   background-image:
-    radial-gradient(ellipse 80% 50% at 10% -10%, rgba(194, 71, 26, 0.08), transparent 50%),
-    radial-gradient(ellipse 60% 40% at 100% 0%, rgba(44, 90, 74, 0.07), transparent 45%),
+    radial-gradient(ellipse 80% 50% at 10% -10%, rgba(61, 154, 214, 0.14), transparent 50%),
+    radial-gradient(ellipse 60% 40% at 100% 0%, rgba(160, 214, 236, 0.22), transparent 45%),
     url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E");
   min-height: 100vh;
 }
@@ -197,7 +198,7 @@ a {
 
 .btn-primary {
   background: var(--persimmon);
-  color: #fffaf4;
+  color: #f4fafe;
   border-color: var(--persimmon);
 }
 
@@ -478,7 +479,7 @@ a {
 .category-card:hover .category-icon,
 .category-card:hover .category-count,
 .category-card:hover .category-desc {
-  color: #e8d5c4;
+  color: #c5e4f5;
 }
 
 .category-name {
@@ -730,7 +731,7 @@ a {
 
 .category-chip.active {
   background: var(--persimmon);
-  color: #fffaf4;
+  color: #f4fafe;
   border-color: var(--persimmon);
   box-shadow: none;
 }
@@ -868,9 +869,9 @@ a {
   justify-content: space-between;
   align-items: center;
   gap: 1.5rem;
-  background: var(--ink);
-  color: var(--cream);
-  border: none;
+  background: var(--cta);
+  color: var(--ink);
+  border: 1px solid var(--line-strong);
   border-radius: var(--radius);
   padding: 1.6rem 1.5rem;
   margin-bottom: 2rem;
@@ -885,7 +886,7 @@ a {
 
 .cta-band p {
   font-size: 0.88rem;
-  color: #d8cbb8;
+  color: var(--ink-2);
 }
 
 .cta-band .btn-primary {
@@ -1246,23 +1247,24 @@ a {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --paper: #1a1612;
-    --paper-deep: #241e18;
-    --cream: #241e18;
-    --cream-2: #2c241c;
-    --ink: #f3eadc;
-    --ink-2: #cbbba6;
-    --ink-3: #8e8172;
-    --line: #3a3228;
-    --line-strong: #4a4034;
-    --persimmon: #e26638;
-    --persimmon-deep: #c2471a;
-    --pine: #8fbfab;
+    --paper: #12202c;
+    --paper-deep: #173044;
+    --cream: #173044;
+    --cream-2: #1c3a50;
+    --ink: #e8f4fb;
+    --ink-2: #a9c7db;
+    --ink-3: #6f91a8;
+    --line: #2a4a62;
+    --line-strong: #3a6280;
+    --persimmon: #5eb3e4;
+    --persimmon-deep: #3d9ad6;
+    --pine: #7ec4ea;
+    --cta: #1a3a52;
   }
 
   body {
     background-image:
-      radial-gradient(ellipse 70% 40% at 0% 0%, rgba(226, 102, 56, 0.12), transparent 50%),
+      radial-gradient(ellipse 70% 40% at 0% 0%, rgba(94, 179, 228, 0.16), transparent 50%),
       url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='0.07'/%3E%3C/svg%3E");
   }
 
@@ -1272,6 +1274,6 @@ a {
   }
 
   .card:hover {
-    box-shadow: 6px 6px 0 rgba(226, 102, 56, 0.22);
+    box-shadow: 6px 6px 0 rgba(94, 179, 228, 0.28);
   }
 }

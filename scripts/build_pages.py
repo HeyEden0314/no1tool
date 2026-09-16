@@ -75,9 +75,9 @@ def nav_html(active: str) -> str:
 
 FAVICON = (
     "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E"
-    "%3Crect width='100' height='100' rx='8' fill='%23C2471A'/%3E"
+    "%3Crect width='100' height='100' rx='8' fill='%233D9AD6'/%3E"
     "%3Ctext x='50' y='68' font-family='serif' font-size='52' font-weight='700' "
-    "fill='%23FBF6EC' text-anchor='middle'%3E%E5%A3%B9%3C/text%3E%3C/svg%3E"
+    "fill='%23F4FAFE' text-anchor='middle'%3E%E5%A3%B9%3C/text%3E%3C/svg%3E"
 )
 
 
@@ -99,7 +99,7 @@ def page_shell_head(title: str, description: str, canonical: str) -> str:
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <meta name="theme-color" content="#c2471a" />
+    <meta name="theme-color" content="#3d9ad6" />
     <title>{esc_title}</title>
     <meta name="description" content="{esc_desc}" />
     <link rel="canonical" href="{html.escape(canonical, quote=True)}" />
